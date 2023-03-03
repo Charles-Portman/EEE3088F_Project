@@ -1,0 +1,65 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 83bdd5e1-981a-4ca1-9a2f-70dea9f00850)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 40.64 48.26) (size 30.48 19.05) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1213f935-6f8d-4a20-9c2e-6b5e9a834fe6)
+    (property "Sheetname" "Power_Subsystem" (at 40.64 47.5484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Power_kicad_sch.kicad_sch" (at 40.64 67.8946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "EEE3088"
+        (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 48.26 80.01) (size 41.91 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid af4ae736-8069-4035-bb69-27168d826fe0)
+    (property "Sheetname" "Microcontroller" (at 48.26 79.2984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Microcontroller_kicad_sch.kicad_sch" (at 48.26 105.9946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "EEE3088"
+        (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 105.41 50.8) (size 45.72 17.78) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid d16a673b-d677-4a4a-a11c-ee22bd422692)
+    (property "Sheetname" "Sensing_Subsystem" (at 105.41 50.0884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Sensing_kicad_sch.kicad_sch" (at 105.41 69.1646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "EEE3088"
+        (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
