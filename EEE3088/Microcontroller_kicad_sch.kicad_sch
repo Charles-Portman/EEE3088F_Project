@@ -1193,7 +1193,7 @@
   (symbol (lib_id "Device:C") (at 278.13 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0c22d969-65d3-476e-9b24-12213f92f9ae)
-    (property "Reference" "C7" (at 281.94 144.145 0)
+    (property "Reference" "C?" (at 281.94 144.145 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 281.94 146.685 0)
@@ -1210,12 +1210,12 @@
     (instances
       (project "Microcontroller_kicad_sch"
         (path "/0a46e2c8-22b4-4d34-8ccf-c8caeb4470e9"
-          (reference "C7") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "C7") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -1224,7 +1224,7 @@
   (symbol (lib_id "power:GND") (at 45.72 165.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 399f1d2b-5131-4fa0-8752-2b2af96d717a)
-    (property "Reference" "#PWR033" (at 45.72 171.45 0)
+    (property "Reference" "#PWR029" (at 45.72 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 40.64 166.37 0)
@@ -1240,7 +1240,7 @@
     (instances
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -1249,7 +1249,7 @@
   (symbol (lib_id "AT24C256C-SSHL-T:AT24C256C-SSHL-T") (at 63.5 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 498b9001-ef0a-4abd-a8c7-67a3759a80e9)
-    (property "Reference" "U3" (at 63.5 157.48 0)
+    (property "Reference" "U?" (at 63.5 157.48 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AT24C256C-SSHL-T" (at 63.5 160.02 0)
@@ -1275,12 +1275,12 @@
     (instances
       (project "Microcontroller_kicad_sch"
         (path "/0a46e2c8-22b4-4d34-8ccf-c8caeb4470e9"
-          (reference "U3") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "U3") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -1289,7 +1289,7 @@
   (symbol (lib_id "CH340G:CH340G") (at 246.38 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 59b71a04-3be6-4391-9de4-0bda342b32ac)
-    (property "Reference" "U2" (at 246.38 22.86 0)
+    (property "Reference" "U?" (at 246.38 22.86 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "CH340G" (at 246.38 25.4 0)
@@ -1332,12 +1332,12 @@
     (instances
       (project "Microcontroller_kicad_sch"
         (path "/0a46e2c8-22b4-4d34-8ccf-c8caeb4470e9"
-          (reference "U2") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "U2") (unit 1)
+          (reference "U7") (unit 1)
         )
       )
     )
@@ -1346,7 +1346,7 @@
   (symbol (lib_id "power:GND") (at 27.94 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5a1c8e90-5f8d-40a2-a2f8-6fb8b4dc7486)
-    (property "Reference" "#PWR04" (at 27.94 60.96 0)
+    (property "Reference" "#PWR?" (at 27.94 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 27.94 59.69 0)
@@ -1362,12 +1362,12 @@
     (instances
       (project "Microcontroller_kicad_sch"
         (path "/0a46e2c8-22b4-4d34-8ccf-c8caeb4470e9"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -1376,7 +1376,7 @@
   (symbol (lib_id "power:GND") (at 234.95 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 627e0252-9c6c-4caa-98f6-8ff33cdf690e)
-    (property "Reference" "#PWR021" (at 234.95 157.48 0)
+    (property "Reference" "#PWR?" (at 234.95 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 234.95 156.21 0)
@@ -1392,12 +1392,12 @@
     (instances
       (project "Microcontroller_kicad_sch"
         (path "/0a46e2c8-22b4-4d34-8ccf-c8caeb4470e9"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -1406,7 +1406,7 @@
   (symbol (lib_id "MICROXNJ:MICROXNJ") (at 43.18 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6b5bd6fa-e8b7-46f9-b726-f65dbb456b39)
-    (property "Reference" "J1" (at 49.53 41.275 0)
+    (property "Reference" "J?" (at 49.53 41.275 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MICROXNJ" (at 49.53 43.815 0)
@@ -1444,7 +1444,7 @@
     (instances
       (project "Microcontroller_kicad_sch"
         (path "/0a46e2c8-22b4-4d34-8ccf-c8caeb4470e9"
-          (reference "J1") (unit 1)
+          (reference "J?") (unit 1)
         )
       )
       (project "EEE3088"
@@ -1458,7 +1458,7 @@
   (symbol (lib_id "Device:C") (at 234.95 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 71c66601-63f5-4551-9431-9587573fa6ce)
-    (property "Reference" "C3" (at 238.76 144.145 0)
+    (property "Reference" "C?" (at 238.76 144.145 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 238.76 146.685 0)
@@ -1475,12 +1475,12 @@
     (instances
       (project "Microcontroller_kicad_sch"
         (path "/0a46e2c8-22b4-4d34-8ccf-c8caeb4470e9"
-          (reference "C3") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "C3") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -1489,7 +1489,7 @@
   (symbol (lib_id "MCU_ST_STM32F0:STM32F051C6Tx") (at 140.97 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7cfe756c-f878-45b7-8341-a4284136c265)
-    (property "Reference" "U1" (at 144.78 100.33 90)
+    (property "Reference" "U?" (at 144.78 100.33 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "STM32F051C6Tx" (at 142.24 106.68 90)
@@ -1552,12 +1552,12 @@
     (instances
       (project "Microcontroller_kicad_sch"
         (path "/0a46e2c8-22b4-4d34-8ccf-c8caeb4470e9"
-          (reference "U1") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "U1") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
     )
@@ -1566,7 +1566,7 @@
   (symbol (lib_id "power:+3.3V") (at 234.95 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 80e165d4-fca3-4cd0-8748-821c43ea208a)
-    (property "Reference" "#PWR023" (at 234.95 142.24 0)
+    (property "Reference" "#PWR?" (at 234.95 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 234.95 134.62 0)
@@ -1582,12 +1582,12 @@
     (instances
       (project "Microcontroller_kicad_sch"
         (path "/0a46e2c8-22b4-4d34-8ccf-c8caeb4470e9"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -1596,7 +1596,7 @@
   (symbol (lib_id "Device:C") (at 254 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8ea707bf-de67-4916-8416-57f77285912d)
-    (property "Reference" "C6" (at 257.81 144.145 0)
+    (property "Reference" "C?" (at 257.81 144.145 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 257.81 146.685 0)
@@ -1613,12 +1613,12 @@
     (instances
       (project "Microcontroller_kicad_sch"
         (path "/0a46e2c8-22b4-4d34-8ccf-c8caeb4470e9"
-          (reference "C6") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "C6") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -1627,7 +1627,7 @@
   (symbol (lib_id "power:GND") (at 78.74 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9e131d00-a1b3-490b-858b-71978f6734f2)
-    (property "Reference" "#PWR06" (at 78.74 186.69 0)
+    (property "Reference" "#PWR?" (at 78.74 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 78.74 185.42 0)
@@ -1643,12 +1643,12 @@
     (instances
       (project "Microcontroller_kicad_sch"
         (path "/0a46e2c8-22b4-4d34-8ccf-c8caeb4470e9"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -1657,7 +1657,7 @@
   (symbol (lib_id "power:+3.3V") (at 139.7 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a04b306e-a891-4cc2-a1a7-78735b72d7f9)
-    (property "Reference" "#PWR019" (at 139.7 36.83 0)
+    (property "Reference" "#PWR?" (at 139.7 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 139.7 29.21 0)
@@ -1673,12 +1673,12 @@
     (instances
       (project "Microcontroller_kicad_sch"
         (path "/0a46e2c8-22b4-4d34-8ccf-c8caeb4470e9"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -1687,7 +1687,7 @@
   (symbol (lib_id "Device:C") (at 267.97 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid accdcc7d-9d67-4e04-916c-cd3efb5d69b7)
-    (property "Reference" "C4" (at 271.78 144.145 0)
+    (property "Reference" "C?" (at 271.78 144.145 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (at 271.78 146.685 0)
@@ -1704,12 +1704,12 @@
     (instances
       (project "Microcontroller_kicad_sch"
         (path "/0a46e2c8-22b4-4d34-8ccf-c8caeb4470e9"
-          (reference "C4") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "C4") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -1718,7 +1718,7 @@
   (symbol (lib_id "power:+3V3") (at 78.74 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aef548d9-ad01-49f7-858f-5de2d905dacb)
-    (property "Reference" "#PWR05" (at 78.74 165.1 0)
+    (property "Reference" "#PWR?" (at 78.74 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 78.74 157.48 0)
@@ -1734,12 +1734,12 @@
     (instances
       (project "Microcontroller_kicad_sch"
         (path "/0a46e2c8-22b4-4d34-8ccf-c8caeb4470e9"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -1748,7 +1748,7 @@
   (symbol (lib_id "power:GND") (at 265.43 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b0aaa024-37c5-4fdf-82af-803e7bd09de5)
-    (property "Reference" "#PWR01" (at 265.43 68.58 0)
+    (property "Reference" "#PWR?" (at 265.43 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 265.43 67.31 0)
@@ -1764,12 +1764,12 @@
     (instances
       (project "Microcontroller_kicad_sch"
         (path "/0a46e2c8-22b4-4d34-8ccf-c8caeb4470e9"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -1778,7 +1778,7 @@
   (symbol (lib_id "power:GND") (at 267.97 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bc0bf8e1-6d72-4071-9ee4-3f342020dd9d)
-    (property "Reference" "#PWR022" (at 267.97 157.48 0)
+    (property "Reference" "#PWR?" (at 267.97 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 267.97 156.21 0)
@@ -1794,12 +1794,12 @@
     (instances
       (project "Microcontroller_kicad_sch"
         (path "/0a46e2c8-22b4-4d34-8ccf-c8caeb4470e9"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -1808,7 +1808,7 @@
   (symbol (lib_id "power:GND") (at 140.97 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ca0a81b9-01f1-4a74-b30a-73ae191338b1)
-    (property "Reference" "#PWR020" (at 140.97 142.24 0)
+    (property "Reference" "#PWR?" (at 140.97 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 140.97 140.97 0)
@@ -1824,12 +1824,12 @@
     (instances
       (project "Microcontroller_kicad_sch"
         (path "/0a46e2c8-22b4-4d34-8ccf-c8caeb4470e9"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -1838,7 +1838,7 @@
   (symbol (lib_id "Device:C") (at 245.11 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d238c61c-6848-41a5-9bcf-af90ef9f4880)
-    (property "Reference" "C5" (at 248.92 144.145 0)
+    (property "Reference" "C?" (at 248.92 144.145 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 248.92 146.685 0)
@@ -1855,12 +1855,12 @@
     (instances
       (project "Microcontroller_kicad_sch"
         (path "/0a46e2c8-22b4-4d34-8ccf-c8caeb4470e9"
-          (reference "C5") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "C5") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -1869,7 +1869,7 @@
   (symbol (lib_id "power:+3V3") (at 27.94 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e89560a2-084d-4f33-adf4-3d349dd20517)
-    (property "Reference" "#PWR03" (at 27.94 34.29 0)
+    (property "Reference" "#PWR?" (at 27.94 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 27.94 26.67 0)
@@ -1885,12 +1885,12 @@
     (instances
       (project "Microcontroller_kicad_sch"
         (path "/0a46e2c8-22b4-4d34-8ccf-c8caeb4470e9"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -1899,7 +1899,7 @@
   (symbol (lib_id "power:+3.3V") (at 267.97 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f7c7d356-c512-4f33-8868-f5d2d735a74f)
-    (property "Reference" "#PWR024" (at 267.97 142.24 0)
+    (property "Reference" "#PWR?" (at 267.97 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 267.97 134.62 0)
@@ -1915,12 +1915,12 @@
     (instances
       (project "Microcontroller_kicad_sch"
         (path "/0a46e2c8-22b4-4d34-8ccf-c8caeb4470e9"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -1929,7 +1929,7 @@
   (symbol (lib_id "power:+3V3") (at 265.43 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fdda5ad2-1d4f-4736-96a5-b2d1c557e41f)
-    (property "Reference" "#PWR02" (at 265.43 30.48 0)
+    (property "Reference" "#PWR?" (at 265.43 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 265.43 22.86 0)
@@ -1945,12 +1945,12 @@
     (instances
       (project "Microcontroller_kicad_sch"
         (path "/0a46e2c8-22b4-4d34-8ccf-c8caeb4470e9"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
