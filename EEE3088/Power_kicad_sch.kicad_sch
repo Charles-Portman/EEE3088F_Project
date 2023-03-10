@@ -904,9 +904,6 @@
   (junction (at 127 95.885) (diameter 0) (color 0 0 0 0)
     (uuid 179ea68e-8ed8-4436-8688-a537248d2cea)
   )
-  (junction (at 71.12 22.225) (diameter 0) (color 0 0 0 0)
-    (uuid 273d83da-c4cf-4ae8-b989-c7b03dea82cc)
-  )
   (junction (at 71.12 40.005) (diameter 0) (color 0 0 0 0)
     (uuid 5eb16a07-6212-48ff-9130-5c7dd096e45f)
   )
@@ -950,6 +947,10 @@
   (wire (pts (xy 103.505 59.055) (xy 103.505 60.325))
     (stroke (width 0) (type default))
     (uuid 2950fff8-9e6f-4e72-93ea-3d5be69157ee)
+  )
+  (wire (pts (xy 71.12 19.685) (xy 71.12 22.225))
+    (stroke (width 0) (type default))
+    (uuid 367cfdcd-c0e7-4453-a1e9-301ecd2db77b)
   )
   (wire (pts (xy 116.84 70.485) (xy 116.84 79.375))
     (stroke (width 0) (type default))
@@ -995,10 +996,6 @@
     (stroke (width 0) (type default))
     (uuid 723063b1-d146-4446-b9b9-3cc4833c5452)
   )
-  (wire (pts (xy 70.485 22.225) (xy 71.12 22.225))
-    (stroke (width 0) (type default))
-    (uuid 76d9f623-2f70-4050-bde9-47683bf75a94)
-  )
   (wire (pts (xy 50.8 65.405) (xy 54.61 65.405))
     (stroke (width 0) (type default))
     (uuid 8adfc409-2e46-470d-bcb3-a17b97e69f26)
@@ -1039,22 +1036,40 @@
     (stroke (width 0) (type default))
     (uuid f50ac9a3-5c20-4f55-ab10-3cc7fcf86a4c)
   )
-  (wire (pts (xy 71.12 19.685) (xy 71.12 22.225))
-    (stroke (width 0) (type default))
-    (uuid f8340d81-bbf3-4bb3-9aee-7309300f7d19)
+
+  (text "Reverse Polarity Protection\n" (at 127 58.42 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 12051e35-4c7f-4c21-bee2-53505604d554)
+  )
+  (text "Voltage Regulator" (at 219.71 69.85 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 82a3b4a9-8dfe-4548-8329-aaf445dad905)
+  )
+  (text "Battery Charger Circuit" (at 23.495 29.21 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f1ed4b8b-03c1-4598-a6a4-1195d068cbae)
   )
 
-  (global_label "+3.3V" (shape output) (at 182.245 79.375 0) (fields_autoplaced)
+  (label "Vbat" (at 93.345 57.785 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 01d79586-7d71-43b9-8b1b-4da5e35101f4)
+  )
+  (label "Vbat" (at 116.84 57.785 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d5b604e1-016c-465c-9998-478598154945)
+  )
+
+  (global_label "+3.3V" (shape output) (at 238.125 80.645 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 4cb44199-083d-4f96-9b0d-0cf47bbb551b)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 190.8356 79.375 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 246.7156 80.645 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "Vout" (shape input) (at 161.925 79.375 180) (fields_autoplaced)
+  (global_label "Vout" (shape input) (at 217.805 80.645 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 5018e71b-90d5-446c-a0b1-67020d3f5548)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 154.9069 79.375 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 210.7869 80.645 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -1065,24 +1080,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "Vbat" (shape input) (at 116.84 57.785 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid aae2eda2-38d4-47e3-b86f-1c1933c39f0a)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 109.8219 57.785 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
   (global_label "5V" (shape input) (at 71.12 19.685 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid b6d4632e-d4f6-4134-ba94-7e4d3967cc21)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 76.3239 19.685 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "Vbat" (shape input) (at 93.345 57.785 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid e9624965-1f23-49b5-ab71-62c7876c145a)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 100.3631 57.785 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -1104,6 +1105,11 @@
     )
     (pin "1" (uuid f3dd1b09-35f0-4a07-838a-ac3070f18ef8))
     (instances
+      (project "Power_kicad_sch"
+        (path "/02e53f89-135a-4459-982b-e3c28e008824"
+          (reference "#PWR07") (unit 1)
+        )
+      )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
           (reference "#PWR07") (unit 1)
@@ -1129,6 +1135,11 @@
     )
     (pin "1" (uuid f94a57d6-77ed-40a5-a06c-a9f757099a55))
     (instances
+      (project "Power_kicad_sch"
+        (path "/02e53f89-135a-4459-982b-e3c28e008824"
+          (reference "#PWR05") (unit 1)
+        )
+      )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
           (reference "#PWR05") (unit 1)
@@ -1179,6 +1190,11 @@
     (pin "1" (uuid 628912ff-958d-423d-9134-ec413e1f8552))
     (pin "2" (uuid ef49e908-e972-44a4-a1e0-168d91d30f34))
     (instances
+      (project "Power_kicad_sch"
+        (path "/02e53f89-135a-4459-982b-e3c28e008824"
+          (reference "R3") (unit 1)
+        )
+      )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
           (reference "R3") (unit 1)
@@ -1187,19 +1203,19 @@
     )
   )
 
-  (symbol (lib_id "HT7533-1:HT7533-1") (at 172.085 81.915 0) (unit 1)
+  (symbol (lib_id "HT7533-1:HT7533-1") (at 227.965 83.185 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 20fdaf76-ce58-4dee-a428-2c526118fd93)
-    (property "Reference" "U2" (at 172.085 73.025 0)
+    (property "Reference" "U2" (at 227.965 74.295 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "HT7533-1" (at 172.085 75.565 0)
+    (property "Value" "HT7533-1" (at 227.965 76.835 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SOT89" (at 172.085 81.915 0)
+    (property "Footprint" "SOT89" (at 227.965 83.185 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (property "Datasheet" "" (at 172.085 81.915 0)
+    (property "Datasheet" "" (at 227.965 83.185 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d292011b-5882-4dae-a198-048c2a777ba5))
@@ -1207,6 +1223,11 @@
     (pin "2@1" (uuid 319a641d-c7f4-44fd-bd3b-706dccfc557d))
     (pin "3" (uuid 64a68d03-a360-4501-aff0-8e9d66339fe9))
     (instances
+      (project "Power_kicad_sch"
+        (path "/02e53f89-135a-4459-982b-e3c28e008824"
+          (reference "U2") (unit 1)
+        )
+      )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
           (reference "U2") (unit 1)
@@ -1257,6 +1278,11 @@
     (pin "1" (uuid 755da5d0-3d4d-4351-bbbc-e545e6d60745))
     (pin "2" (uuid 673a4ab5-9452-4043-b0eb-f7217352bc0c))
     (instances
+      (project "Power_kicad_sch"
+        (path "/02e53f89-135a-4459-982b-e3c28e008824"
+          (reference "LED2") (unit 1)
+        )
+      )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
           (reference "LED2") (unit 1)
@@ -1282,6 +1308,11 @@
     )
     (pin "1" (uuid 3a8e1b18-46ae-4182-b567-4e196538e375))
     (instances
+      (project "Power_kicad_sch"
+        (path "/02e53f89-135a-4459-982b-e3c28e008824"
+          (reference "#PWR06") (unit 1)
+        )
+      )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
           (reference "#PWR06") (unit 1)
@@ -1332,6 +1363,11 @@
     (pin "1" (uuid 831d0e72-8494-4892-82fd-df844ec88d90))
     (pin "2" (uuid b42030c7-5ea7-4917-8cbc-b104aa586e81))
     (instances
+      (project "Power_kicad_sch"
+        (path "/02e53f89-135a-4459-982b-e3c28e008824"
+          (reference "R5") (unit 1)
+        )
+      )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
           (reference "R5") (unit 1)
@@ -1382,6 +1418,11 @@
     (pin "1" (uuid 580bfef9-4f68-4bf7-aa8a-c7c78f6e2ea8))
     (pin "2" (uuid 7ad51b9d-1b0c-4490-92d0-10f2c25b754b))
     (instances
+      (project "Power_kicad_sch"
+        (path "/02e53f89-135a-4459-982b-e3c28e008824"
+          (reference "R4") (unit 1)
+        )
+      )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
           (reference "R4") (unit 1)
@@ -1407,6 +1448,11 @@
     )
     (pin "1" (uuid 04daeb5e-17d2-4a17-9b7b-fa1bf1ce7614))
     (instances
+      (project "Power_kicad_sch"
+        (path "/02e53f89-135a-4459-982b-e3c28e008824"
+          (reference "#PWR03") (unit 1)
+        )
+      )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
           (reference "#PWR03") (unit 1)
@@ -1433,6 +1479,11 @@
     (pin "1" (uuid ca9416d8-5955-4778-bca2-0944da6dd58e))
     (pin "2" (uuid a562230e-c499-45c0-888a-da2f0accd7dd))
     (instances
+      (project "Power_kicad_sch"
+        (path "/02e53f89-135a-4459-982b-e3c28e008824"
+          (reference "C1") (unit 1)
+        )
+      )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
           (reference "C1") (unit 1)
@@ -1458,6 +1509,11 @@
     )
     (pin "1" (uuid 1dee1c96-0ddd-4eb1-9a47-5f4df1012505))
     (instances
+      (project "Power_kicad_sch"
+        (path "/02e53f89-135a-4459-982b-e3c28e008824"
+          (reference "#PWR04") (unit 1)
+        )
+      )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
           (reference "#PWR04") (unit 1)
@@ -1508,6 +1564,11 @@
     (pin "1" (uuid 7d808822-c803-4c7d-b856-8fb43d8d8206))
     (pin "2" (uuid 4ae1289f-5931-4833-8947-c9e1c1dd0034))
     (instances
+      (project "Power_kicad_sch"
+        (path "/02e53f89-135a-4459-982b-e3c28e008824"
+          (reference "LED1") (unit 1)
+        )
+      )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
           (reference "LED1") (unit 1)
@@ -1546,6 +1607,11 @@
     (pin "N" (uuid 85251c7c-ce69-44d8-9aa4-d5e6d3738c0f))
     (pin "P" (uuid 493e9a90-3bf3-4a2c-b569-7b25fd401b78))
     (instances
+      (project "Power_kicad_sch"
+        (path "/02e53f89-135a-4459-982b-e3c28e008824"
+          (reference "BT1") (unit 1)
+        )
+      )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
           (reference "BT1") (unit 1)
@@ -1571,6 +1637,11 @@
     )
     (pin "1" (uuid 6c15a4f9-3cac-4155-955c-3133dfdedaa0))
     (instances
+      (project "Power_kicad_sch"
+        (path "/02e53f89-135a-4459-982b-e3c28e008824"
+          (reference "#PWR01") (unit 1)
+        )
+      )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
           (reference "#PWR01") (unit 1)
@@ -1580,7 +1651,7 @@
   )
 
   (symbol (lib_id "CL10A106KP8NNNC:CL10A106KP8NNNC") (at 91.44 68.58 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid a994af23-6ae5-4bdb-9870-367c2ba1b0ca)
     (property "Reference" "C2" (at 95.25 66.675 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -1597,6 +1668,11 @@
     (pin "1" (uuid b3b6b244-d51b-47d5-b641-ef5326ca73ce))
     (pin "2" (uuid 4765f2d8-ac7d-4e01-ad8c-b7e3bf61f6ca))
     (instances
+      (project "Power_kicad_sch"
+        (path "/02e53f89-135a-4459-982b-e3c28e008824"
+          (reference "C2") (unit 1)
+        )
+      )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
           (reference "C2") (unit 1)
@@ -1605,23 +1681,28 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 172.085 86.995 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 227.965 88.265 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid babaecb3-7a21-4fd5-8655-bf44a1b281fe)
-    (property "Reference" "#PWR08" (at 172.085 93.345 0)
+    (property "Reference" "#PWR08" (at 227.965 94.615 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 172.085 92.075 0)
+    (property "Value" "GND" (at 227.965 93.345 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 172.085 86.995 0)
+    (property "Footprint" "" (at 227.965 88.265 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 172.085 86.995 0)
+    (property "Datasheet" "" (at 227.965 88.265 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 230fff54-738b-4639-96d2-87c187da0720))
     (instances
+      (project "Power_kicad_sch"
+        (path "/02e53f89-135a-4459-982b-e3c28e008824"
+          (reference "#PWR08") (unit 1)
+        )
+      )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
           (reference "#PWR08") (unit 1)
@@ -1664,6 +1745,11 @@
     (pin "8" (uuid 51f5819c-5e46-49c6-964d-e733b519bdb7))
     (pin "9" (uuid 8709e077-9b68-43df-8dbf-65edff30341d))
     (instances
+      (project "Power_kicad_sch"
+        (path "/02e53f89-135a-4459-982b-e3c28e008824"
+          (reference "U1") (unit 1)
+        )
+      )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
           (reference "U1") (unit 1)
@@ -1715,6 +1801,11 @@
     (pin "2" (uuid f5d18d22-a42b-4701-be9a-bdbf428d7338))
     (pin "3" (uuid 1759ea37-ed8b-4d04-8394-0e189e4c9ae3))
     (instances
+      (project "Power_kicad_sch"
+        (path "/02e53f89-135a-4459-982b-e3c28e008824"
+          (reference "Q1") (unit 1)
+        )
+      )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
           (reference "Q1") (unit 1)
@@ -1765,6 +1856,11 @@
     (pin "1" (uuid 511e4b4c-9cc3-404b-9b4e-33fe32317ffa))
     (pin "2" (uuid 4e875971-13db-4335-b376-c74430557e6c))
     (instances
+      (project "Power_kicad_sch"
+        (path "/02e53f89-135a-4459-982b-e3c28e008824"
+          (reference "R1") (unit 1)
+        )
+      )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
           (reference "R1") (unit 1)
@@ -1790,6 +1886,11 @@
     )
     (pin "1" (uuid a475c1a0-6e94-49d7-8f98-3dc9e8a0412a))
     (instances
+      (project "Power_kicad_sch"
+        (path "/02e53f89-135a-4459-982b-e3c28e008824"
+          (reference "#PWR02") (unit 1)
+        )
+      )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
           (reference "#PWR02") (unit 1)
@@ -1828,6 +1929,11 @@
     (pin "A" (uuid e30efd35-9443-4b7b-a387-4348d61f19e3))
     (pin "C" (uuid 78d7468e-c50f-4f9d-be96-561362f634ff))
     (instances
+      (project "Power_kicad_sch"
+        (path "/02e53f89-135a-4459-982b-e3c28e008824"
+          (reference "D1") (unit 1)
+        )
+      )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
           (reference "D1") (unit 1)
@@ -1878,11 +1984,20 @@
     (pin "1" (uuid 9096ed5d-12e6-4b36-a65d-18f98f4a5690))
     (pin "2" (uuid 69d9cb16-4a17-4669-9625-722905237663))
     (instances
+      (project "Power_kicad_sch"
+        (path "/02e53f89-135a-4459-982b-e3c28e008824"
+          (reference "R2") (unit 1)
+        )
+      )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
           (reference "R2") (unit 1)
         )
       )
     )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
   )
 )
