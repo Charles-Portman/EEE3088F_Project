@@ -2038,7 +2038,7 @@
   (symbol (lib_id "AO3400A:AO3400A") (at 113.665 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 39c00dce-9864-4a2c-b53d-fda7029d24d3)
-    (property "Reference" "N-Mos" (at 125.095 109.855 0)
+    (property "Reference" "N-Mos1" (at 125.095 109.855 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "AO3400A" (at 125.095 112.395 0)
@@ -2089,7 +2089,7 @@
     (instances
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
-          (reference "N-Mos") (unit 1)
+          (reference "N-Mos1") (unit 1)
         )
       )
     )
@@ -2365,7 +2365,7 @@
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
-          (reference "Battery-Holder") (unit 1)
+          (reference "Battery-Holder1") (unit 1)
         )
       )
     )
@@ -2635,7 +2635,7 @@
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
-          (reference "Battery-Charger") (unit 1)
+          (reference "Battery-Charger1") (unit 1)
         )
       )
     )
@@ -2700,7 +2700,7 @@
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
-          (reference "P-Mos") (unit 1)
+          (reference "P-Mos1") (unit 1)
         )
       )
     )
@@ -2973,7 +2973,7 @@
   (symbol (lib_id "MCP6002T-I_SN:MCP6002T-I_SN") (at 81.28 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fa6c2ef6-cf06-401f-9e38-1da92d38ad98)
-    (property "Reference" "Op-Amp" (at 98.4759 98.425 0)
+    (property "Reference" "Op-Amp1" (at 98.4759 98.425 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MCP6002T-I_SN" (at 98.4759 100.965 0)
@@ -3029,7 +3029,7 @@
     (instances
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
-          (reference "Op-Amp") (unit 1)
+          (reference "Op-Amp1") (unit 1)
         )
       )
     )

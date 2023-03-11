@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\Users\jakew\OneDrive\Documents\GitHub\EEE3088F_Project\EEE3088\EEE3088.kicad_sch</source>
-    <date>2023/03/11 17:53:51</date>
+    <source>C:\Users\portm\Documents\GitHub\EEE3088F_Project\EEE3088\EEE3088.kicad_sch</source>
+    <date>2023/03/11 21:45:36</date>
     <tool>Eeschema (7.0.0)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -78,13 +78,42 @@
     </sheet>
   </design>
   <components>
-    <comp ref="BT1">
+    <comp ref="Battery-Charger1">
+      <value>TP4056</value>
+      <footprint>SOP127P600X175-9N</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1809261820_TOPPOWER-Nanjing-Extension-Microelectronics-TP4056-42-ESOP8_C16581.pdf</datasheet>
+      <fields>
+        <field name="Description">Battery Charger</field>
+        <field name="Extended">0</field>
+        <field name="MANUFACTURER">NanJing Top Power ASIC Corp.</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.75mm</field>
+        <field name="Manufacturer_Part_Number">TP4056-42-ESOP8</field>
+        <field name="Price">0.2064</field>
+        <field name="STANDARD">IPC 7351B</field>
+      </fields>
+      <libsource lib="TP4056" part="TP4056" description=""/>
+      <property name="MANUFACTURER" value="NanJing Top Power ASIC Corp."/>
+      <property name="STANDARD" value="IPC 7351B"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.75mm"/>
+      <property name="Price" value="0.2064"/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value="0"/>
+      <property name="Description" value="Battery Charger"/>
+      <property name="Manufacturer_Part_Number" value="TP4056-42-ESOP8"/>
+      <property name="Sheetname" value="Power_Subsystem"/>
+      <property name="Sheetfile" value="Power_kicad_sch.kicad_sch"/>
+      <sheetpath names="/Power_Subsystem/" tstamps="/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6/"/>
+      <tstamps>c67cadf8-c765-42fc-abba-be483b7f117c</tstamps>
+    </comp>
+    <comp ref="Battery-Holder1">
       <value>BH-18650-PC</value>
       <footprint>BAT_BH-18650-PC</footprint>
       <fields>
+        <field name="Extended">0</field>
         <field name="MANUFACTURER">MPD</field>
         <field name="MAXIMUM_PACKAGE_HEIGHT">21.31mm</field>
         <field name="PARTREV">05/17/19</field>
+        <field name="Price">0.00</field>
         <field name="STANDARD">Manufacturer Recommendation</field>
       </fields>
       <libsource lib="BH-18650-PC" part="BH-18650-PC" description=""/>
@@ -92,6 +121,9 @@
       <property name="STANDARD" value="Manufacturer Recommendation"/>
       <property name="PARTREV" value="05/17/19"/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value="21.31mm"/>
+      <property name="Price" value="0.00"/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value="0"/>
       <property name="Sheetname" value="Power_Subsystem"/>
       <property name="Sheetfile" value="Power_kicad_sch.kicad_sch"/>
       <sheetpath names="/Power_Subsystem/" tstamps="/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6/"/>
@@ -100,7 +132,19 @@
     <comp ref="C1">
       <value>10uF</value>
       <footprint>CAPC1608X90N</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810191219_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf</datasheet>
+      <fields>
+        <field name="Description">10uF Cap</field>
+        <field name="Extended">0</field>
+        <field name="Manufacturer_Part_Number">CL10A106KP8NNNC</field>
+        <field name="Price">0.0066</field>
+      </fields>
       <libsource lib="CL10A106KP8NNNC" part="CL10A106KP8NNNC" description=""/>
+      <property name="Price" value="0.0066"/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value="0"/>
+      <property name="Description" value="10uF Cap"/>
+      <property name="Manufacturer_Part_Number" value="CL10A106KP8NNNC"/>
       <property name="Sheetname" value="Power_Subsystem"/>
       <property name="Sheetfile" value="Power_kicad_sch.kicad_sch"/>
       <sheetpath names="/Power_Subsystem/" tstamps="/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6/"/>
@@ -109,7 +153,19 @@
     <comp ref="C2">
       <value>10uF</value>
       <footprint>CAPC1608X90N</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810191219_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf</datasheet>
+      <fields>
+        <field name="Description">10uF Cap</field>
+        <field name="Extended">0</field>
+        <field name="Manufacturer_Part_Number">CL10A106KP8NNNC</field>
+        <field name="Price">0.0066</field>
+      </fields>
       <libsource lib="CL10A106KP8NNNC" part="CL10A106KP8NNNC" description=""/>
+      <property name="Price" value="0.0066"/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value="0"/>
+      <property name="Description" value="10uF Cap"/>
+      <property name="Manufacturer_Part_Number" value="CL10A106KP8NNNC"/>
       <property name="Sheetname" value="Power_Subsystem"/>
       <property name="Sheetfile" value="Power_kicad_sch.kicad_sch"/>
       <sheetpath names="/Power_Subsystem/" tstamps="/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6/"/>
@@ -129,52 +185,28 @@
       <property name="MANUFACTURER" value="Taiwan Semiconductor"/>
       <property name="PARTREV" value="F15"/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.15 mm"/>
+      <property name="Price" value=""/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value=""/>
       <property name="Sheetname" value="Power_Subsystem"/>
       <property name="Sheetfile" value="Power_kicad_sch.kicad_sch"/>
       <sheetpath names="/Power_Subsystem/" tstamps="/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6/"/>
       <tstamps>f70545c5-2de5-4f41-8bf9-3ba37c6ced62</tstamps>
-    </comp>
-    <comp ref="IC1">
-      <value>MCP6002T-I_SN</value>
-      <footprint>SOIC127P600X175-8N</footprint>
-      <datasheet>https://componentsearchengine.com/Datasheets/2/MCP6002T-I_SN.pdf</datasheet>
-      <fields>
-        <field name="Arrow Part Number">MCP6002T-I/SN</field>
-        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/mcp6002t-isn/microchip-technology?region=nac</field>
-        <field name="Description">Op. Amplifier Dual 1MHz Low-Power SOIC8 Microchip MCP6002T-I/SN, Dual Low Power Op Amp, 1MHz Rail-Rail, 1.8  6 V, 8-Pin SOIC</field>
-        <field name="Height">1.75</field>
-        <field name="Manufacturer_Name">Microchip</field>
-        <field name="Manufacturer_Part_Number">MCP6002T-I/SN</field>
-        <field name="Mouser Part Number">579-MCP6002T-I/SN</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Atmel/MCP6002T-I-SN?qs=hul3WK2zl4od4mMZEAcUDQ%3D%3D</field>
-      </fields>
-      <libsource lib="MCP6002T-I_SN" part="MCP6002T-I_SN" description="Op. Amplifier Dual 1MHz Low-Power SOIC8 Microchip MCP6002T-I/SN, Dual Low Power Op Amp, 1MHz Rail-Rail, 1.8  6 V, 8-Pin SOIC"/>
-      <property name="Description" value="Op. Amplifier Dual 1MHz Low-Power SOIC8 Microchip MCP6002T-I/SN, Dual Low Power Op Amp, 1MHz Rail-Rail, 1.8  6 V, 8-Pin SOIC"/>
-      <property name="Height" value="1.75"/>
-      <property name="Manufacturer_Name" value="Microchip"/>
-      <property name="Manufacturer_Part_Number" value="MCP6002T-I/SN"/>
-      <property name="Mouser Part Number" value="579-MCP6002T-I/SN"/>
-      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Atmel/MCP6002T-I-SN?qs=hul3WK2zl4od4mMZEAcUDQ%3D%3D"/>
-      <property name="Arrow Part Number" value="MCP6002T-I/SN"/>
-      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/mcp6002t-isn/microchip-technology?region=nac"/>
-      <property name="Sheetname" value="Power_Subsystem"/>
-      <property name="Sheetfile" value="Power_kicad_sch.kicad_sch"/>
-      <property name="ki_description" value="Op. Amplifier Dual 1MHz Low-Power SOIC8 Microchip MCP6002T-I/SN, Dual Low Power Op Amp, 1MHz Rail-Rail, 1.8  6 V, 8-Pin SOIC"/>
-      <sheetpath names="/Power_Subsystem/" tstamps="/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6/"/>
-      <tstamps>fa6c2ef6-cf06-401f-9e38-1da92d38ad98</tstamps>
     </comp>
     <comp ref="LED1">
       <value>Red</value>
       <footprint>LEDC1608X70N</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf</datasheet>
       <fields>
-        <field name="Description">Red 615~{630nm} 1.9~{2.2V} 0603 Light Emitting Diodes (LED) RoHS</field>
+        <field name="Description">Red LED for battery charging indication</field>
+        <field name="Extended">0</field>
         <field name="Height">0.7</field>
         <field name="Manufacturer_Name">Hubei KENTO Elec</field>
         <field name="Manufacturer_Part_Number">KT-0603R</field>
+        <field name="Price">0.0054</field>
       </fields>
       <libsource lib="KT-0603R" part="KT-0603R" description="Red 615~630nm 1.9~2.2V 0603 Light Emitting Diodes (LED) RoHS"/>
-      <property name="Description" value="Red 615~{630nm} 1.9~{2.2V} 0603 Light Emitting Diodes (LED) RoHS"/>
+      <property name="Description" value="Red LED for battery charging indication"/>
       <property name="Height" value="0.7"/>
       <property name="Manufacturer_Name" value="Hubei KENTO Elec"/>
       <property name="Manufacturer_Part_Number" value="KT-0603R"/>
@@ -182,6 +214,9 @@
       <property name="Mouser Price/Stock" value=""/>
       <property name="Arrow Part Number" value=""/>
       <property name="Arrow Price/Stock" value=""/>
+      <property name="Price" value="0.0054"/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value="0"/>
       <property name="Sheetname" value="Power_Subsystem"/>
       <property name="Sheetfile" value="Power_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="Red 615~630nm 1.9~2.2V 0603 Light Emitting Diodes (LED) RoHS"/>
@@ -195,15 +230,17 @@
       <fields>
         <field name="Arrow Part Number">19-217/GHC-YR1S2/3T</field>
         <field name="Arrow Price/Stock">https://www.arrow.com/en/products/19-217ghc-yr1s23t/everlight-electronics</field>
-        <field name="Description">Standard LEDs - SMD</field>
+        <field name="Description">Green LED For battery charging indication</field>
+        <field name="Extended">0</field>
         <field name="Height">0.5</field>
         <field name="Manufacturer_Name">Everlight</field>
         <field name="Manufacturer_Part_Number">19-217/GHC-YR1S2/3T</field>
         <field name="Mouser Part Number">638-19217GHCYR1S23T</field>
         <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Everlight/19-217-GHC-YR1S2-3T?qs=8cKuZ6Ok2lZjmFTUzVFjDg%3D%3D</field>
+        <field name="Price">0.0264</field>
       </fields>
       <libsource lib="19-217_GHC-YR1S2_3T" part="19-217_GHC-YR1S2_3T" description="Standard LEDs - SMD"/>
-      <property name="Description" value="Standard LEDs - SMD"/>
+      <property name="Description" value="Green LED For battery charging indication"/>
       <property name="Height" value="0.5"/>
       <property name="Manufacturer_Name" value="Everlight"/>
       <property name="Manufacturer_Part_Number" value="19-217/GHC-YR1S2/3T"/>
@@ -211,50 +248,28 @@
       <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Everlight/19-217-GHC-YR1S2-3T?qs=8cKuZ6Ok2lZjmFTUzVFjDg%3D%3D"/>
       <property name="Arrow Part Number" value="19-217/GHC-YR1S2/3T"/>
       <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/19-217ghc-yr1s23t/everlight-electronics"/>
+      <property name="Price" value="0.0264"/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value="0"/>
       <property name="Sheetname" value="Power_Subsystem"/>
       <property name="Sheetfile" value="Power_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="Standard LEDs - SMD"/>
       <sheetpath names="/Power_Subsystem/" tstamps="/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6/"/>
       <tstamps>caa5cd0f-201d-435c-bebb-a6acb21c1aae</tstamps>
     </comp>
-    <comp ref="Q1">
-      <value>LBSS84LT1G</value>
-      <footprint>SOT96P237X111-3N</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/Leshan-Radio-LBSS84LT1G_C8492.pdf</datasheet>
-      <fields>
-        <field name="Description">P-MOSFET</field>
-        <field name="Height">1.11</field>
-        <field name="Manufacturer_Name">onsemi</field>
-        <field name="Manufacturer_Part_Number">LBSS84LT1G</field>
-        <field name="Mouser Part Number">N/A</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi/LBSS84LT1G?qs=k4J6HQLAy0oy6qnSSn%252B1%252BA%3D%3D</field>
-      </fields>
-      <libsource lib="LBSS84LT1G" part="LBSS84LT1G" description="P-MOSFET"/>
-      <property name="Description" value="P-MOSFET"/>
-      <property name="Height" value="1.11"/>
-      <property name="Manufacturer_Name" value="onsemi"/>
-      <property name="Manufacturer_Part_Number" value="LBSS84LT1G"/>
-      <property name="Mouser Part Number" value="N/A"/>
-      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/onsemi/LBSS84LT1G?qs=k4J6HQLAy0oy6qnSSn%252B1%252BA%3D%3D"/>
-      <property name="Arrow Part Number" value=""/>
-      <property name="Arrow Price/Stock" value=""/>
-      <property name="Sheetname" value="Power_Subsystem"/>
-      <property name="Sheetfile" value="Power_kicad_sch.kicad_sch"/>
-      <property name="ki_description" value="P-MOSFET"/>
-      <sheetpath names="/Power_Subsystem/" tstamps="/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6/"/>
-      <tstamps>c8aa48ed-bca0-4926-9bc6-04230f71276e</tstamps>
-    </comp>
-    <comp ref="Q2">
+    <comp ref="N-Mos1">
       <value>AO3400A</value>
       <footprint>SOT95P280X125-3N</footprint>
-      <datasheet>http://aosmd.com/res/data_sheets/AO3400A.pdf</datasheet>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811081213_Alpha---Omega-Semicon-AO3400A_C20917.pdf</datasheet>
       <fields>
         <field name="Arrow Part Number">AO3400A</field>
         <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ao3400a/alpha-and-omega-semiconductor?region=europe</field>
         <field name="Description">30V N-Channel MOSFET</field>
+        <field name="Extended">0</field>
         <field name="Height">1.25</field>
         <field name="Manufacturer_Name">Alpha &amp; Omega Semiconductors</field>
         <field name="Manufacturer_Part_Number">AO3400A</field>
+        <field name="Price">0.0864</field>
       </fields>
       <libsource lib="AO3400A" part="AO3400A" description="30V N-Channel MOSFET"/>
       <property name="Description" value="30V N-Channel MOSFET"/>
@@ -265,24 +280,95 @@
       <property name="Mouser Price/Stock" value=""/>
       <property name="Arrow Part Number" value="AO3400A"/>
       <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/ao3400a/alpha-and-omega-semiconductor?region=europe"/>
+      <property name="Price" value="0.0864"/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value="0"/>
       <property name="Sheetname" value="Power_Subsystem"/>
       <property name="Sheetfile" value="Power_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="30V N-Channel MOSFET"/>
       <sheetpath names="/Power_Subsystem/" tstamps="/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6/"/>
       <tstamps>39c00dce-9864-4a2c-b53d-fda7029d24d3</tstamps>
     </comp>
+    <comp ref="Op-Amp1">
+      <value>MCP6002T-I_SN</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811081213_Microchip-Tech-MCP6002T-I-SN--_C7377.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">MCP6002T-I/SN</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/mcp6002t-isn/microchip-technology?region=nac</field>
+        <field name="Description">Op-Amp</field>
+        <field name="Extended">0</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">MCP6002T-I/SN</field>
+        <field name="Mouser Part Number">579-MCP6002T-I/SN</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Atmel/MCP6002T-I-SN?qs=hul3WK2zl4od4mMZEAcUDQ%3D%3D</field>
+        <field name="Price">0.282</field>
+      </fields>
+      <libsource lib="MCP6002T-I_SN" part="MCP6002T-I_SN" description="Op. Amplifier Dual 1MHz Low-Power SOIC8 Microchip MCP6002T-I/SN, Dual Low Power Op Amp, 1MHz Rail-Rail, 1.8  6 V, 8-Pin SOIC"/>
+      <property name="Description" value="Op-Amp"/>
+      <property name="Height" value="1.75"/>
+      <property name="Manufacturer_Name" value="Microchip"/>
+      <property name="Manufacturer_Part_Number" value="MCP6002T-I/SN"/>
+      <property name="Mouser Part Number" value="579-MCP6002T-I/SN"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Atmel/MCP6002T-I-SN?qs=hul3WK2zl4od4mMZEAcUDQ%3D%3D"/>
+      <property name="Arrow Part Number" value="MCP6002T-I/SN"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/mcp6002t-isn/microchip-technology?region=nac"/>
+      <property name="Price" value="0.282"/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value="0"/>
+      <property name="Sheetname" value="Power_Subsystem"/>
+      <property name="Sheetfile" value="Power_kicad_sch.kicad_sch"/>
+      <property name="ki_description" value="Op. Amplifier Dual 1MHz Low-Power SOIC8 Microchip MCP6002T-I/SN, Dual Low Power Op Amp, 1MHz Rail-Rail, 1.8  6 V, 8-Pin SOIC"/>
+      <sheetpath names="/Power_Subsystem/" tstamps="/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6/"/>
+      <tstamps>fa6c2ef6-cf06-401f-9e38-1da92d38ad98</tstamps>
+    </comp>
+    <comp ref="P-Mos1">
+      <value>LBSS84LT1G</value>
+      <footprint>SOT96P237X111-3N</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811031711_LRC-LBSS84LT1G_C8492.pdf</datasheet>
+      <fields>
+        <field name="Description">P-MOSFET</field>
+        <field name="Extended">0</field>
+        <field name="Height">1.11</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">LBSS84LT1G</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi/LBSS84LT1G?qs=k4J6HQLAy0oy6qnSSn%252B1%252BA%3D%3D</field>
+        <field name="Price">0.0242</field>
+      </fields>
+      <libsource lib="LBSS84LT1G" part="LBSS84LT1G" description="P-MOSFET"/>
+      <property name="Description" value="P-MOSFET"/>
+      <property name="Height" value="1.11"/>
+      <property name="Manufacturer_Name" value="onsemi"/>
+      <property name="Manufacturer_Part_Number" value="LBSS84LT1G"/>
+      <property name="Mouser Part Number" value="N/A"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/onsemi/LBSS84LT1G?qs=k4J6HQLAy0oy6qnSSn%252B1%252BA%3D%3D"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Price" value="0.0242"/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value="0"/>
+      <property name="Sheetname" value="Power_Subsystem"/>
+      <property name="Sheetfile" value="Power_kicad_sch.kicad_sch"/>
+      <property name="ki_description" value="P-MOSFET"/>
+      <sheetpath names="/Power_Subsystem/" tstamps="/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6/"/>
+      <tstamps>c8aa48ed-bca0-4926-9bc6-04230f71276e</tstamps>
+    </comp>
     <comp ref="R1">
       <value>1k</value>
       <footprint>RESC1005X40N</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1001TCE_C11702.pdf</datasheet>
       <fields>
-        <field name="Description">1K +/-1% 1/16W +/-100ppm/ 0402 Chip Resistor</field>
+        <field name="Description">1k Resistor - 0402</field>
+        <field name="Extended">0</field>
         <field name="Height">0.4</field>
         <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
         <field name="Manufacturer_Part_Number">0402WGF1001TCE</field>
+        <field name="Price">0.0005</field>
       </fields>
       <libsource lib="0402WGF1001TCE" part="0402WGF1001TCE" description="1K +/-1% 1/16W +/-100ppm/ 0402 Chip Resistor"/>
-      <property name="Description" value="1K +/-1% 1/16W +/-100ppm/ 0402 Chip Resistor"/>
+      <property name="Description" value="1k Resistor - 0402"/>
       <property name="Height" value="0.4"/>
       <property name="Manufacturer_Name" value="UNI-ROYAL(Uniroyal Elec)"/>
       <property name="Manufacturer_Part_Number" value="0402WGF1001TCE"/>
@@ -290,6 +376,9 @@
       <property name="Mouser Price/Stock" value=""/>
       <property name="Arrow Part Number" value=""/>
       <property name="Arrow Price/Stock" value=""/>
+      <property name="Price" value="0.0005"/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value="0"/>
       <property name="Sheetname" value="Power_Subsystem"/>
       <property name="Sheetfile" value="Power_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="1K +/-1% 1/16W +/-100ppm/ 0402 Chip Resistor"/>
@@ -301,13 +390,15 @@
       <footprint>RESC1608X55N</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1201T5E_C22765.pdf</datasheet>
       <fields>
-        <field name="Description">Chip Resistor - Surface Mount 1.2KOhms +/-1% 1/10W 0603 RoHS</field>
+        <field name="Description">1.2k Resistor - 0603</field>
+        <field name="Extended">0</field>
         <field name="Height">0.55</field>
         <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
         <field name="Manufacturer_Part_Number">0603WAF1201T5E</field>
+        <field name="Price">0.001</field>
       </fields>
       <libsource lib="0603WAF1201T5E" part="0603WAF1201T5E" description="Chip Resistor - Surface Mount 1.2KOhms +/-1% 1/10W 0603 RoHS"/>
-      <property name="Description" value="Chip Resistor - Surface Mount 1.2KOhms +/-1% 1/10W 0603 RoHS"/>
+      <property name="Description" value="1.2k Resistor - 0603"/>
       <property name="Height" value="0.55"/>
       <property name="Manufacturer_Name" value="UNI-ROYAL(Uniroyal Elec)"/>
       <property name="Manufacturer_Part_Number" value="0603WAF1201T5E"/>
@@ -315,6 +406,9 @@
       <property name="Mouser Price/Stock" value=""/>
       <property name="Arrow Part Number" value=""/>
       <property name="Arrow Price/Stock" value=""/>
+      <property name="Price" value="0.001"/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value="0"/>
       <property name="Sheetname" value="Power_Subsystem"/>
       <property name="Sheetfile" value="Power_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="Chip Resistor - Surface Mount 1.2KOhms +/-1% 1/10W 0603 RoHS"/>
@@ -324,14 +418,17 @@
     <comp ref="R3">
       <value>1M</value>
       <footprint>RESC2013X65N</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010200_UNI-ROYAL-Uniroyal-Elec-0805W8F1004T5E_C17514.pdf</datasheet>
       <fields>
-        <field name="Description">Thick Film Chip Resistors 0805</field>
+        <field name="Description">1M Resistor - 0805</field>
+        <field name="Extended">0</field>
         <field name="Height">0.65</field>
         <field name="Manufacturer_Name">UniOhm</field>
         <field name="Manufacturer_Part_Number">0805W8F1004T5E</field>
+        <field name="Price">0.0016</field>
       </fields>
       <libsource lib="0805W8F1004T5E" part="0805W8F1004T5E" description="Thick Film Chip Resistors 0805"/>
-      <property name="Description" value="Thick Film Chip Resistors 0805"/>
+      <property name="Description" value="1M Resistor - 0805"/>
       <property name="Height" value="0.65"/>
       <property name="Manufacturer_Name" value="UniOhm"/>
       <property name="Manufacturer_Part_Number" value="0805W8F1004T5E"/>
@@ -339,6 +436,9 @@
       <property name="Mouser Price/Stock" value=""/>
       <property name="Arrow Part Number" value=""/>
       <property name="Arrow Price/Stock" value=""/>
+      <property name="Price" value="0.0016"/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value="0"/>
       <property name="Sheetname" value="Power_Subsystem"/>
       <property name="Sheetfile" value="Power_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="Thick Film Chip Resistors 0805"/>
@@ -350,13 +450,15 @@
       <footprint>RESC1005X40N</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1001TCE_C11702.pdf</datasheet>
       <fields>
-        <field name="Description">1K +/-1% 1/16W +/-100ppm/ 0402 Chip Resistor</field>
+        <field name="Description">1K Resistor - 0402</field>
+        <field name="Extended">0</field>
         <field name="Height">0.4</field>
         <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
         <field name="Manufacturer_Part_Number">0402WGF1001TCE</field>
+        <field name="Price">0.0005</field>
       </fields>
       <libsource lib="0402WGF1001TCE" part="0402WGF1001TCE" description="1K +/-1% 1/16W +/-100ppm/ 0402 Chip Resistor"/>
-      <property name="Description" value="1K +/-1% 1/16W +/-100ppm/ 0402 Chip Resistor"/>
+      <property name="Description" value="1K Resistor - 0402"/>
       <property name="Height" value="0.4"/>
       <property name="Manufacturer_Name" value="UNI-ROYAL(Uniroyal Elec)"/>
       <property name="Manufacturer_Part_Number" value="0402WGF1001TCE"/>
@@ -364,6 +466,9 @@
       <property name="Mouser Price/Stock" value=""/>
       <property name="Arrow Part Number" value=""/>
       <property name="Arrow Price/Stock" value=""/>
+      <property name="Price" value="0.0005"/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value="0"/>
       <property name="Sheetname" value="Power_Subsystem"/>
       <property name="Sheetfile" value="Power_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="1K +/-1% 1/16W +/-100ppm/ 0402 Chip Resistor"/>
@@ -373,15 +478,17 @@
     <comp ref="R5">
       <value>100k</value>
       <footprint>RESC3116X65N</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-1206W4F1003T5E_C17900.pdf</datasheet>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F1003T5E_C17900.pdf</datasheet>
       <fields>
-        <field name="Description">Chip Resistor - Surface Mount 100KOhms +/-1% 1/4W 1206 RoHS</field>
+        <field name="Description">100k Resistor - 1206</field>
+        <field name="Extended">0</field>
         <field name="Height">0.65</field>
         <field name="Manufacturer_Name">Uniroyal Elec</field>
         <field name="Manufacturer_Part_Number">1206W4F1003T5E</field>
+        <field name="Price">0.0032</field>
       </fields>
       <libsource lib="1206W4F1003T5E" part="1206W4F1003T5E" description="Chip Resistor - Surface Mount 100KOhms +/-1% 1/4W 1206 RoHS"/>
-      <property name="Description" value="Chip Resistor - Surface Mount 100KOhms +/-1% 1/4W 1206 RoHS"/>
+      <property name="Description" value="100k Resistor - 1206"/>
       <property name="Height" value="0.65"/>
       <property name="Manufacturer_Name" value="Uniroyal Elec"/>
       <property name="Manufacturer_Part_Number" value="1206W4F1003T5E"/>
@@ -389,6 +496,9 @@
       <property name="Mouser Price/Stock" value=""/>
       <property name="Arrow Part Number" value=""/>
       <property name="Arrow Price/Stock" value=""/>
+      <property name="Price" value="0.0032"/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value="0"/>
       <property name="Sheetname" value="Power_Subsystem"/>
       <property name="Sheetfile" value="Power_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="Chip Resistor - Surface Mount 100KOhms +/-1% 1/4W 1206 RoHS"/>
@@ -398,6 +508,9 @@
     <comp ref="TP8">
       <value>TestPoint</value>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Price" value=""/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value=""/>
       <property name="Sheetname" value="Power_Subsystem"/>
       <property name="Sheetfile" value="Power_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="test point"/>
@@ -408,6 +521,9 @@
     <comp ref="TP9">
       <value>TestPoint</value>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Price" value=""/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value=""/>
       <property name="Sheetname" value="Power_Subsystem"/>
       <property name="Sheetfile" value="Power_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="test point"/>
@@ -418,6 +534,9 @@
     <comp ref="TP10">
       <value>TestPoint</value>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Price" value=""/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value=""/>
       <property name="Sheetname" value="Power_Subsystem"/>
       <property name="Sheetfile" value="Power_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="test point"/>
@@ -428,6 +547,9 @@
     <comp ref="TP11">
       <value>TestPoint</value>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Price" value=""/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value=""/>
       <property name="Sheetname" value="Power_Subsystem"/>
       <property name="Sheetfile" value="Power_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="test point"/>
@@ -438,6 +560,9 @@
     <comp ref="TP12">
       <value>TestPoint</value>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Price" value=""/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value=""/>
       <property name="Sheetname" value="Power_Subsystem"/>
       <property name="Sheetfile" value="Power_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="test point"/>
@@ -445,44 +570,57 @@
       <sheetpath names="/Power_Subsystem/" tstamps="/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6/"/>
       <tstamps>a7cb2dff-dc4f-44b6-9b93-950b69f8c338</tstamps>
     </comp>
-    <comp ref="U1">
-      <value>TP4056</value>
-      <footprint>SOP127P600X175-9N</footprint>
+    <comp ref="Voltage-Regulator-1">
+      <value>HT7533-1</value>
+      <footprint>SOT89</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811062113_Holtek-Semicon-HT7533-1_C14289.pdf</datasheet>
       <fields>
-        <field name="MANUFACTURER">NanJing Top Power ASIC Corp.</field>
-        <field name="MAXIMUM_PACKAGE_HEIGHT">1.75mm</field>
-        <field name="STANDARD">IPC 7351B</field>
+        <field name="Extended">0</field>
+        <field name="Manufacturer_Part_Number">HT7533-1</field>
+        <field name="Price">0.1315</field>
       </fields>
-      <libsource lib="TP4056" part="TP4056" description=""/>
-      <property name="MANUFACTURER" value="NanJing Top Power ASIC Corp."/>
-      <property name="STANDARD" value="IPC 7351B"/>
-      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.75mm"/>
-      <property name="Sheetname" value="Power_Subsystem"/>
-      <property name="Sheetfile" value="Power_kicad_sch.kicad_sch"/>
-      <sheetpath names="/Power_Subsystem/" tstamps="/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6/"/>
-      <tstamps>c67cadf8-c765-42fc-abba-be483b7f117c</tstamps>
-    </comp>
-    <comp ref="U2">
-      <value>HT7533-1</value>
-      <footprint>SOT89</footprint>
       <libsource lib="HT7533-1" part="HT7533-1" description=""/>
-      <property name="Sheetname" value="Power_Subsystem"/>
-      <property name="Sheetfile" value="Power_kicad_sch.kicad_sch"/>
-      <sheetpath names="/Power_Subsystem/" tstamps="/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6/"/>
-      <tstamps>20fdaf76-ce58-4dee-a428-2c526118fd93</tstamps>
-    </comp>
-    <comp ref="U8">
-      <value>HT7533-1</value>
-      <footprint>SOT89</footprint>
-      <libsource lib="HT7533-1" part="HT7533-1" description=""/>
+      <property name="Price" value="0.1315"/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value="0"/>
+      <property name="Manufacturer_Part_Number" value="HT7533-1"/>
       <property name="Sheetname" value="Power_Subsystem"/>
       <property name="Sheetfile" value="Power_kicad_sch.kicad_sch"/>
       <sheetpath names="/Power_Subsystem/" tstamps="/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6/"/>
       <tstamps>1987ef62-53c6-4b3e-b91c-3f5ffbab8eec</tstamps>
     </comp>
+    <comp ref="Voltage-Regulator-2">
+      <value>HT7533-1</value>
+      <footprint>SOT89</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811062113_Holtek-Semicon-HT7533-1_C14289.pdf</datasheet>
+      <fields>
+        <field name="Extended">0</field>
+        <field name="Manufacturer_Part_Number">HT7533-1</field>
+        <field name="Price">0.1315</field>
+      </fields>
+      <libsource lib="HT7533-1" part="HT7533-1" description=""/>
+      <property name="Price" value="0.1315"/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value="0"/>
+      <property name="Manufacturer_Part_Number" value="HT7533-1"/>
+      <property name="Sheetname" value="Power_Subsystem"/>
+      <property name="Sheetfile" value="Power_kicad_sch.kicad_sch"/>
+      <sheetpath names="/Power_Subsystem/" tstamps="/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6/"/>
+      <tstamps>20fdaf76-ce58-4dee-a428-2c526118fd93</tstamps>
+    </comp>
     <comp ref="C3">
       <value>1uF</value>
+      <footprint>CL21B105KBFNNNE</footprint>
+      <fields>
+        <field name="Description">1uF Cap 0805</field>
+        <field name="Extended">0</field>
+        <field name="Price">0.0087</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Price" value="0.0087"/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value="0"/>
+      <property name="Description" value="1uF Cap 0805"/>
       <property name="Sheetname" value="Sensing_Subsystem"/>
       <property name="Sheetfile" value="Sensing_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -492,7 +630,17 @@
     </comp>
     <comp ref="C4">
       <value>1uF</value>
+      <footprint>CL21B105KBFNNNE</footprint>
+      <fields>
+        <field name="Description">1uF Cap 0805</field>
+        <field name="Extended">0</field>
+        <field name="Price">0.0087</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Price" value="0.0087"/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value="0"/>
+      <property name="Description" value="1uF Cap 0805"/>
       <property name="Sheetname" value="Sensing_Subsystem"/>
       <property name="Sheetfile" value="Sensing_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -502,7 +650,19 @@
     </comp>
     <comp ref="R6">
       <value>0</value>
+      <footprint>0402WGF0000TCE</footprint>
+      <fields>
+        <field name="Description">0 Resistor - 0402</field>
+        <field name="Extended">0</field>
+        <field name="Manufacturer_Part_Number">0402WGF0000TCE</field>
+        <field name="Price">0.0035</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Price" value="0.0035"/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value="0"/>
+      <property name="Description" value="0 Resistor - 0402"/>
+      <property name="Manufacturer_Part_Number" value="0402WGF0000TCE"/>
       <property name="Sheetname" value="Sensing_Subsystem"/>
       <property name="Sheetfile" value="Sensing_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -512,7 +672,19 @@
     </comp>
     <comp ref="R7">
       <value>0</value>
+      <footprint>0402WGF0000TCE</footprint>
+      <fields>
+        <field name="Description">0 Resistor - 0402</field>
+        <field name="Extended">0</field>
+        <field name="Manufacturer_Part_Number">0402WGF0000TCE</field>
+        <field name="Price">0.0035</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Price" value="0.0035"/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value="0"/>
+      <property name="Description" value="0 Resistor - 0402"/>
+      <property name="Manufacturer_Part_Number" value="0402WGF0000TCE"/>
       <property name="Sheetname" value="Sensing_Subsystem"/>
       <property name="Sheetfile" value="Sensing_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -524,7 +696,18 @@
       <value>LDR03</value>
       <footprint>OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical</footprint>
       <datasheet>http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/BA0C/C664/31B9/2173/C0A8/2AB9/2AEF/LDR03IMP.pdf</datasheet>
+      <fields>
+        <field name="Description">LDR</field>
+        <field name="Extended">1</field>
+        <field name="Manufacturer_Part_Number">GL3516</field>
+        <field name="Price">0.13</field>
+      </fields>
       <libsource lib="Sensor_Optical" part="LDR03" description="light dependent resistor"/>
+      <property name="Price" value="0.13"/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value="1"/>
+      <property name="Description" value="LDR"/>
+      <property name="Manufacturer_Part_Number" value="GL3516"/>
       <property name="Sheetname" value="Sensing_Subsystem"/>
       <property name="Sheetfile" value="Sensing_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="light dependent resistor"/>
@@ -536,7 +719,18 @@
       <value>LDR03</value>
       <footprint>OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical</footprint>
       <datasheet>http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/BA0C/C664/31B9/2173/C0A8/2AB9/2AEF/LDR03IMP.pdf</datasheet>
+      <fields>
+        <field name="Description">LDR</field>
+        <field name="Extended">1</field>
+        <field name="Manufacturer_Part_Number">GL3516</field>
+        <field name="Price">0.13</field>
+      </fields>
       <libsource lib="Sensor_Optical" part="LDR03" description="light dependent resistor"/>
+      <property name="Price" value="0.13"/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value="1"/>
+      <property name="Description" value="LDR"/>
+      <property name="Manufacturer_Part_Number" value="GL3516"/>
       <property name="Sheetname" value="Sensing_Subsystem"/>
       <property name="Sheetfile" value="Sensing_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="light dependent resistor"/>
@@ -548,7 +742,18 @@
       <value>LDR03</value>
       <footprint>OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical</footprint>
       <datasheet>http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/BA0C/C664/31B9/2173/C0A8/2AB9/2AEF/LDR03IMP.pdf</datasheet>
+      <fields>
+        <field name="Description">LDR</field>
+        <field name="Extended">1</field>
+        <field name="Manufacturer_Part_Number">GL3516</field>
+        <field name="Price">0.13</field>
+      </fields>
       <libsource lib="Sensor_Optical" part="LDR03" description="light dependent resistor"/>
+      <property name="Price" value="0.13"/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value="1"/>
+      <property name="Description" value="LDR"/>
+      <property name="Manufacturer_Part_Number" value="GL3516"/>
       <property name="Sheetname" value="Sensing_Subsystem"/>
       <property name="Sheetfile" value="Sensing_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="light dependent resistor"/>
@@ -560,7 +765,18 @@
       <value>LDR03</value>
       <footprint>OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical</footprint>
       <datasheet>http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/BA0C/C664/31B9/2173/C0A8/2AB9/2AEF/LDR03IMP.pdf</datasheet>
+      <fields>
+        <field name="Description">LDR</field>
+        <field name="Extended">1</field>
+        <field name="Manufacturer_Part_Number">GL3516</field>
+        <field name="Price">0.13</field>
+      </fields>
       <libsource lib="Sensor_Optical" part="LDR03" description="light dependent resistor"/>
+      <property name="Price" value="0.13"/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value="1"/>
+      <property name="Description" value="LDR"/>
+      <property name="Manufacturer_Part_Number" value="GL3516"/>
       <property name="Sheetname" value="Sensing_Subsystem"/>
       <property name="Sheetfile" value="Sensing_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="light dependent resistor"/>
@@ -570,7 +786,19 @@
     </comp>
     <comp ref="R12">
       <value>0</value>
+      <footprint>0402WGF0000TCE</footprint>
+      <fields>
+        <field name="Description">0 Resistor - 0402</field>
+        <field name="Extended">0</field>
+        <field name="Manufacturer_Part_Number">0402WGF0000TCE</field>
+        <field name="Price">0.0035</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Price" value="0.0035"/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value="0"/>
+      <property name="Description" value="0 Resistor - 0402"/>
+      <property name="Manufacturer_Part_Number" value="0402WGF0000TCE"/>
       <property name="Sheetname" value="Sensing_Subsystem"/>
       <property name="Sheetfile" value="Sensing_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -580,7 +808,19 @@
     </comp>
     <comp ref="R13">
       <value>0</value>
+      <footprint>0402WGF0000TCE</footprint>
+      <fields>
+        <field name="Description">0 Resistor - 0402</field>
+        <field name="Extended">0</field>
+        <field name="Manufacturer_Part_Number">0402WGF0000TCE</field>
+        <field name="Price">0.0035</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Price" value="0.0035"/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value="0"/>
+      <property name="Description" value="0 Resistor - 0402"/>
+      <property name="Manufacturer_Part_Number" value="0402WGF0000TCE"/>
       <property name="Sheetname" value="Sensing_Subsystem"/>
       <property name="Sheetfile" value="Sensing_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -590,7 +830,19 @@
     </comp>
     <comp ref="R14">
       <value>0</value>
+      <footprint>0402WGF0000TCE</footprint>
+      <fields>
+        <field name="Description">0 Resistor - 0402</field>
+        <field name="Extended">0</field>
+        <field name="Manufacturer_Part_Number">0402WGF0000TCE</field>
+        <field name="Price">0.0035</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Price" value="0.0035"/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value="0"/>
+      <property name="Description" value="0 Resistor - 0402"/>
+      <property name="Manufacturer_Part_Number" value="0402WGF0000TCE"/>
       <property name="Sheetname" value="Sensing_Subsystem"/>
       <property name="Sheetfile" value="Sensing_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -600,7 +852,19 @@
     </comp>
     <comp ref="R15">
       <value>0</value>
+      <footprint>0402WGF0000TCE</footprint>
+      <fields>
+        <field name="Description">0 Resistor - 0402</field>
+        <field name="Extended">0</field>
+        <field name="Manufacturer_Part_Number">0402WGF0000TCE</field>
+        <field name="Price">0.0035</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Price" value="0.0035"/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value="0"/>
+      <property name="Description" value="0 Resistor - 0402"/>
+      <property name="Manufacturer_Part_Number" value="0402WGF0000TCE"/>
       <property name="Sheetname" value="Sensing_Subsystem"/>
       <property name="Sheetfile" value="Sensing_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -610,7 +874,19 @@
     </comp>
     <comp ref="R16">
       <value>10K</value>
+      <footprint>0805W8F1002T5E</footprint>
+      <fields>
+        <field name="Description">10K Resistor 0805</field>
+        <field name="Extended">0</field>
+        <field name="Manufacturer_Part_Number">0805W8F1002T5E</field>
+        <field name="Price">0.001</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Price" value="0.001"/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value="0"/>
+      <property name="Description" value="10K Resistor 0805"/>
+      <property name="Manufacturer_Part_Number" value="0805W8F1002T5E"/>
       <property name="Sheetname" value="Sensing_Subsystem"/>
       <property name="Sheetfile" value="Sensing_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -620,7 +896,19 @@
     </comp>
     <comp ref="R17">
       <value>10K</value>
+      <footprint>0805W8F1002T5E</footprint>
+      <fields>
+        <field name="Description">10K Resistor 0805</field>
+        <field name="Extended">0</field>
+        <field name="Manufacturer_Part_Number">0805W8F1002T5E</field>
+        <field name="Price">0.001</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Price" value="0.001"/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value="0"/>
+      <property name="Description" value="10K Resistor 0805"/>
+      <property name="Manufacturer_Part_Number" value="0805W8F1002T5E"/>
       <property name="Sheetname" value="Sensing_Subsystem"/>
       <property name="Sheetfile" value="Sensing_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -630,7 +918,19 @@
     </comp>
     <comp ref="R18">
       <value>10K</value>
+      <footprint>0805W8F1002T5E</footprint>
+      <fields>
+        <field name="Description">10K Resistor 0805</field>
+        <field name="Extended">0</field>
+        <field name="Manufacturer_Part_Number">0805W8F1002T5E</field>
+        <field name="Price">0.001</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Price" value="0.001"/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value="0"/>
+      <property name="Description" value="10K Resistor 0805"/>
+      <property name="Manufacturer_Part_Number" value="0805W8F1002T5E"/>
       <property name="Sheetname" value="Sensing_Subsystem"/>
       <property name="Sheetfile" value="Sensing_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -640,7 +940,19 @@
     </comp>
     <comp ref="R19">
       <value>10K</value>
+      <footprint>0805W8F1002T5E</footprint>
+      <fields>
+        <field name="Description">10K Resistor 0805</field>
+        <field name="Extended">0</field>
+        <field name="Manufacturer_Part_Number">0805W8F1002T5E</field>
+        <field name="Price">0.001</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Price" value="0.001"/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value="0"/>
+      <property name="Description" value="10K Resistor 0805"/>
+      <property name="Manufacturer_Part_Number" value="0805W8F1002T5E"/>
       <property name="Sheetname" value="Sensing_Subsystem"/>
       <property name="Sheetfile" value="Sensing_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -650,7 +962,19 @@
     </comp>
     <comp ref="R20">
       <value>10K</value>
+      <footprint>0805W8F1002T5E</footprint>
+      <fields>
+        <field name="Description">10K Resistor 0805</field>
+        <field name="Extended">0</field>
+        <field name="Manufacturer_Part_Number">0805W8F1002T5E</field>
+        <field name="Price">0.001</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Price" value="0.001"/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value="0"/>
+      <property name="Description" value="10K Resistor 0805"/>
+      <property name="Manufacturer_Part_Number" value="0805W8F1002T5E"/>
       <property name="Sheetname" value="Sensing_Subsystem"/>
       <property name="Sheetfile" value="Sensing_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -660,7 +984,19 @@
     </comp>
     <comp ref="R21">
       <value>10K</value>
+      <footprint>0805W8F1002T5E</footprint>
+      <fields>
+        <field name="Description">10K Resistor 0805</field>
+        <field name="Extended">0</field>
+        <field name="Manufacturer_Part_Number">0805W8F1002T5E</field>
+        <field name="Price">0.001</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Price" value="0.001"/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value="0"/>
+      <property name="Description" value="10K Resistor 0805"/>
+      <property name="Manufacturer_Part_Number" value="0805W8F1002T5E"/>
       <property name="Sheetname" value="Sensing_Subsystem"/>
       <property name="Sheetfile" value="Sensing_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -668,9 +1004,34 @@
       <sheetpath names="/Sensing_Subsystem/" tstamps="/d16a673b-d677-4a4a-a11c-ee22bd422692/"/>
       <tstamps>f7dee734-d6d5-4318-b4a4-51427f2e1063</tstamps>
     </comp>
+    <comp ref="R22">
+      <value>0</value>
+      <footprint>0402WGF0000TCE</footprint>
+      <fields>
+        <field name="Description">0 Resistor - 0402</field>
+        <field name="Extended">0</field>
+        <field name="Manufacturer_Part_Number">0402WGF0000TCE</field>
+        <field name="Price">0.0035</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Price" value="0.0035"/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value="0"/>
+      <property name="Description" value="0 Resistor - 0402"/>
+      <property name="Manufacturer_Part_Number" value="0402WGF0000TCE"/>
+      <property name="Sheetname" value="Sensing_Subsystem"/>
+      <property name="Sheetfile" value="Sensing_kicad_sch.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Sensing_Subsystem/" tstamps="/d16a673b-d677-4a4a-a11c-ee22bd422692/"/>
+      <tstamps>1e759923-39e6-4d38-a74f-39a966fb327a</tstamps>
+    </comp>
     <comp ref="TP1">
       <value>TestPoint</value>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Price" value=""/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value=""/>
       <property name="Sheetname" value="Sensing_Subsystem"/>
       <property name="Sheetfile" value="Sensing_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="test point"/>
@@ -681,6 +1042,9 @@
     <comp ref="TP2">
       <value>TestPoint</value>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Price" value=""/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value=""/>
       <property name="Sheetname" value="Sensing_Subsystem"/>
       <property name="Sheetfile" value="Sensing_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="test point"/>
@@ -691,6 +1055,9 @@
     <comp ref="TP3">
       <value>TestPoint</value>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Price" value=""/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value=""/>
       <property name="Sheetname" value="Sensing_Subsystem"/>
       <property name="Sheetfile" value="Sensing_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="test point"/>
@@ -701,6 +1068,9 @@
     <comp ref="TP4">
       <value>TestPoint</value>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Price" value=""/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value=""/>
       <property name="Sheetname" value="Sensing_Subsystem"/>
       <property name="Sheetfile" value="Sensing_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="test point"/>
@@ -711,6 +1081,9 @@
     <comp ref="TP5">
       <value>TestPoint</value>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Price" value=""/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value=""/>
       <property name="Sheetname" value="Sensing_Subsystem"/>
       <property name="Sheetfile" value="Sensing_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="test point"/>
@@ -721,6 +1094,9 @@
     <comp ref="TP6">
       <value>TestPoint</value>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Price" value=""/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value=""/>
       <property name="Sheetname" value="Sensing_Subsystem"/>
       <property name="Sheetfile" value="Sensing_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="test point"/>
@@ -731,6 +1107,9 @@
     <comp ref="TP7">
       <value>TestPoint</value>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Price" value=""/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value=""/>
       <property name="Sheetname" value="Sensing_Subsystem"/>
       <property name="Sheetfile" value="Sensing_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="test point"/>
@@ -742,7 +1121,18 @@
       <value>LTR-303ALS-01</value>
       <footprint>OptoDevice:Lite-On_LTR-303ALS-01</footprint>
       <datasheet>http://optoelectronics.liteon.com/upload/download/DS86-2013-0004/LTR-303ALS-01_DS_V1.pdf</datasheet>
+      <fields>
+        <field name="Description">ALS</field>
+        <field name="Extended">1</field>
+        <field name="Manufacturer_Part_Number">LTR-303ALS-01</field>
+        <field name="Price">0.3887</field>
+      </fields>
       <libsource lib="Sensor_Optical" part="LTR-303ALS-01" description="ambient light sensor, i2c interface, 0.01 to 64k lux, 2.4-3.6V"/>
+      <property name="Price" value="0.3887"/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value="1"/>
+      <property name="Description" value="ALS"/>
+      <property name="Manufacturer_Part_Number" value="LTR-303ALS-01"/>
       <property name="Sheetname" value="Sensing_Subsystem"/>
       <property name="Sheetfile" value="Sensing_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="ambient light sensor, i2c interface, 0.01 to 64k lux, 2.4-3.6V"/>
@@ -754,7 +1144,18 @@
       <value>LTR-303ALS-01</value>
       <footprint>OptoDevice:Lite-On_LTR-303ALS-01</footprint>
       <datasheet>http://optoelectronics.liteon.com/upload/download/DS86-2013-0004/LTR-303ALS-01_DS_V1.pdf</datasheet>
+      <fields>
+        <field name="Description">ALS</field>
+        <field name="Extended">1</field>
+        <field name="Manufacturer_Part_Number">LTR-303ALS-01</field>
+        <field name="Price">0.3887</field>
+      </fields>
       <libsource lib="Sensor_Optical" part="LTR-303ALS-01" description="ambient light sensor, i2c interface, 0.01 to 64k lux, 2.4-3.6V"/>
+      <property name="Price" value="0.3887"/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value="1"/>
+      <property name="Description" value="ALS"/>
+      <property name="Manufacturer_Part_Number" value="LTR-303ALS-01"/>
       <property name="Sheetname" value="Sensing_Subsystem"/>
       <property name="Sheetfile" value="Sensing_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="ambient light sensor, i2c interface, 0.01 to 64k lux, 2.4-3.6V"/>
@@ -765,6 +1166,9 @@
     <comp ref="C5">
       <value>100nF</value>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Price" value=""/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value=""/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -775,6 +1179,9 @@
     <comp ref="C6">
       <value>100nF</value>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Price" value=""/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value=""/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -785,6 +1192,9 @@
     <comp ref="C7">
       <value>4.7uF</value>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Price" value=""/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value=""/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -795,6 +1205,9 @@
     <comp ref="C8">
       <value>10nF</value>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Price" value=""/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value=""/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -804,7 +1217,17 @@
     </comp>
     <comp ref="C9">
       <value>1uF</value>
+      <footprint>CL21B105KBFNNNE</footprint>
+      <fields>
+        <field name="Description">1uF Cap 0805</field>
+        <field name="Extended">0</field>
+        <field name="Price">0.0087</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Price" value="0.0087"/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value="0"/>
+      <property name="Description" value="1uF Cap 0805"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -826,6 +1249,9 @@
       <property name="PARTREV" value="A"/>
       <property name="MANUFACTURER" value="SHOUHAN"/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value="3mm"/>
+      <property name="Price" value=""/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value=""/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller_kicad_sch.kicad_sch"/>
       <sheetpath names="/Microcontroller/" tstamps="/af4ae736-8069-4035-bb69-27168d826fe0/"/>
@@ -839,6 +1265,9 @@
       </fields>
       <libsource lib="AT24C256C-SSHL-T" part="AT24C256C-SSHL-T" description=""/>
       <property name="MANUFACTURER" value="Atmel"/>
+      <property name="Price" value=""/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value=""/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller_kicad_sch.kicad_sch"/>
       <sheetpath names="/Microcontroller/" tstamps="/af4ae736-8069-4035-bb69-27168d826fe0/"/>
@@ -849,6 +1278,9 @@
       <footprint>Package_QFP:LQFP-48_7x7mm_P0.5mm</footprint>
       <datasheet>https://www.st.com/resource/en/datasheet/stm32f051c6.pdf</datasheet>
       <libsource lib="MCU_ST_STM32F0" part="STM32F051C6Tx" description="STMicroelectronics Arm Cortex-M0 MCU, 32KB flash, 8KB RAM, 48 MHz, 2.0-3.6V, 39 GPIO, LQFP48"/>
+      <property name="Price" value=""/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value=""/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="STMicroelectronics Arm Cortex-M0 MCU, 32KB flash, 8KB RAM, 48 MHz, 2.0-3.6V, 39 GPIO, LQFP48"/>
@@ -870,6 +1302,9 @@
       <property name="STANDARD" value="IPC 7351B"/>
       <property name="PARTREV" value="2G"/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.8 mm"/>
+      <property name="Price" value=""/>
+      <property name="Basic" value=""/>
+      <property name="Extended" value=""/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller_kicad_sch.kicad_sch"/>
       <sheetpath names="/Microcontroller/" tstamps="/af4ae736-8069-4035-bb69-27168d826fe0/"/>
@@ -1354,59 +1789,17 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="0402WGF1001TCE">
-      <uri>C:/Users/jakew/Downloads/LIB_0402WGF1001TCE/0402WGF1001TCE/KiCad/0402WGF1001TCE.lib</uri>
-    </library>
-    <library logical="0603WAF1201T5E">
-      <uri>C:/Users/jakew/Downloads/LIB_0603WAF1201T5E/0603WAF1201T5E/KiCad/0603WAF1201T5E.lib</uri>
-    </library>
-    <library logical="0805W8F1004T5E">
-      <uri>C:/Users/jakew/Downloads/LIB_0805W8F1004T5E/0805W8F1004T5E/KiCad/0805W8F1004T5E.lib</uri>
-    </library>
-    <library logical="1206W4F1003T5E">
-      <uri>C:/Users/jakew/Downloads/LIB_1206W4F1003T5E/1206W4F1003T5E/KiCad/1206W4F1003T5E.lib</uri>
-    </library>
-    <library logical="19-217_GHC-YR1S2_3T">
-      <uri>C:/Users/jakew/Downloads/LIB_19-217_GHC-YR1S2_3T/19-217_GHC-YR1S2_3T/KiCad/19-217_GHC-YR1S2_3T.lib</uri>
-    </library>
-    <library logical="AO3400A">
-      <uri>C:/Users/jakew/Downloads/LIB_AO3400A/AO3400A/KiCad/AO3400A.lib</uri>
-    </library>
-    <library logical="BH-18650-PC">
-      <uri>C:/Users/jakew/Downloads/BH-18650-PC/BH-18650-PC.kicad_sym</uri>
-    </library>
-    <library logical="BZT52C5V1_RH">
-      <uri>C:/Users/jakew/Downloads/BZT52C5V1_RH/BZT52C5V1_RH.kicad_sym</uri>
-    </library>
-    <library logical="CL10A106KP8NNNC">
-      <uri>C:/Users/jakew/Downloads/CL10A106KP8NNNC/CL10A106KP8NNNC.kicad_sym</uri>
-    </library>
     <library logical="Connector">
       <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
     </library>
     <library logical="Device">
       <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
     </library>
-    <library logical="HT7533-1">
-      <uri>C:/Users/jakew/Downloads/HT7533-1/HT7533-1.kicad_sym</uri>
-    </library>
-    <library logical="KT-0603R">
-      <uri>C:/Users/jakew/Downloads/LIB_KT-0603R/KT-0603R/KiCad/KT-0603R.lib</uri>
-    </library>
-    <library logical="LBSS84LT1G">
-      <uri>C:/Users/jakew/Downloads/LIB_LBSS84LT1G/LBSS84LT1G/KiCad/LBSS84LT1G.lib</uri>
-    </library>
-    <library logical="MCP6002T-I_SN">
-      <uri>C:/Users/jakew/Downloads/LIB_MCP6002T-I_SN/MCP6002T-I_SN/KiCad/MCP6002T-I_SN.lib</uri>
-    </library>
     <library logical="MCU_ST_STM32F0">
       <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/MCU_ST_STM32F0.kicad_sym</uri>
     </library>
     <library logical="Sensor_Optical">
       <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Sensor_Optical.kicad_sym</uri>
-    </library>
-    <library logical="TP4056">
-      <uri>C:/Users/jakew/Downloads/TP4056/TP4056.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
@@ -1418,22 +1811,22 @@
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="C8" pin="1" pintype="passive"/>
       <node ref="C9" pin="1" pintype="passive"/>
-      <node ref="R10" pin="1" pintype="passive"/>
       <node ref="R16" pin="1" pintype="passive"/>
       <node ref="R17" pin="1" pintype="passive"/>
       <node ref="R18" pin="1" pintype="passive"/>
       <node ref="R19" pin="1" pintype="passive"/>
       <node ref="R20" pin="1" pintype="passive"/>
       <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
       <node ref="R8" pin="1" pintype="passive"/>
       <node ref="TP12" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U2" pin="3" pinfunction="VO" pintype="passive"/>
       <node ref="U3" pin="1" pinfunction="VDD" pintype="power_in"/>
       <node ref="U4" pin="1" pinfunction="VDD" pintype="power_in"/>
       <node ref="U6" pin="24" pinfunction="VDD" pintype="power_in"/>
       <node ref="U6" pin="48" pinfunction="VDD" pintype="power_in"/>
       <node ref="U6" pin="9" pinfunction="VDDA" pintype="power_in"/>
+      <node ref="Voltage-Regulator-2" pin="3" pinfunction="VO" pintype="passive"/>
     </net>
     <net code="2" name="+3V3">
       <node ref="J1" pin="1" pinfunction="VBUS" pintype="power_in"/>
@@ -1444,58 +1837,77 @@
       <node ref="J1" pin="4" pinfunction="ID" pintype="bidirectional"/>
     </net>
     <net code="4" name="/Power_Subsystem/3.3-back">
-      <node ref="IC1" pin="2" pinfunction="VINA-" pintype="passive"/>
+      <node ref="Op-Amp1" pin="2" pinfunction="VINA-" pintype="passive"/>
       <node ref="TP11" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U8" pin="3" pinfunction="VO" pintype="passive"/>
+      <node ref="Voltage-Regulator-1" pin="3" pinfunction="VO" pintype="passive"/>
     </net>
     <net code="5" name="/Power_Subsystem/V-Reg">
-      <node ref="Q2" pin="2" pintype="passive"/>
+      <node ref="N-Mos1" pin="2" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="TP10" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U2" pin="2" pinfunction="VI" pintype="input"/>
-      <node ref="U2" pin="2@1" pinfunction="VI" pintype="input"/>
-      <node ref="U8" pin="2" pinfunction="VI" pintype="input"/>
-      <node ref="U8" pin="2@1" pinfunction="VI" pintype="input"/>
+      <node ref="Voltage-Regulator-1" pin="2" pinfunction="VI" pintype="input"/>
+      <node ref="Voltage-Regulator-1" pin="2@1" pinfunction="VI" pintype="input"/>
+      <node ref="Voltage-Regulator-2" pin="2" pinfunction="VI" pintype="input"/>
+      <node ref="Voltage-Regulator-2" pin="2@1" pinfunction="VI" pintype="input"/>
     </net>
     <net code="6" name="/Power_Subsystem/V-pos">
       <node ref="D1" pin="C" pintype="passive"/>
-      <node ref="IC1" pin="8" pinfunction="VDD" pintype="passive"/>
-      <node ref="Q1" pin="2" pintype="passive"/>
-      <node ref="Q2" pin="3" pintype="passive"/>
+      <node ref="N-Mos1" pin="3" pintype="passive"/>
+      <node ref="Op-Amp1" pin="8" pinfunction="VDD" pintype="passive"/>
+      <node ref="P-Mos1" pin="2" pintype="passive"/>
       <node ref="TP9" pin="1" pinfunction="1" pintype="passive"/>
     </net>
     <net code="7" name="/Power_Subsystem/Vbat">
-      <node ref="BT1" pin="N" pintype="passive"/>
+      <node ref="Battery-Charger1" pin="5" pinfunction="BAT" pintype="output"/>
+      <node ref="Battery-Holder1" pin="N" pintype="passive"/>
       <node ref="C2" pin="1" pintype="passive"/>
-      <node ref="IC1" pin="3" pinfunction="VINA+" pintype="passive"/>
+      <node ref="Op-Amp1" pin="3" pinfunction="VINA+" pintype="passive"/>
       <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U1" pin="5" pinfunction="BAT" pintype="output"/>
     </net>
-    <net code="8" name="5V">
+    <net code="8" name="/Sensing_Subsystem/LDR_Vout_1">
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="/Sensing_Subsystem/LDR_Vout_2">
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="/Sensing_Subsystem/SCL_Sense">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="11" name="/Sensing_Subsystem/SDA_Sense">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="12" name="5V">
+      <node ref="Battery-Charger1" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="Battery-Charger1" pin="8" pinfunction="CE" pintype="input"/>
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="LED1" pin="2" pintype="passive"/>
       <node ref="LED2" pin="2" pintype="passive"/>
-      <node ref="U1" pin="4" pinfunction="VCC" pintype="power_in"/>
-      <node ref="U1" pin="8" pinfunction="CE" pintype="input"/>
     </net>
-    <net code="9" name="EEPROM_A0">
+    <net code="13" name="EEPROM_A0">
       <node ref="U5" pin="1" pinfunction="A0" pintype="input"/>
     </net>
-    <net code="10" name="EEPROM_A1">
+    <net code="14" name="EEPROM_A1">
       <node ref="U5" pin="2" pinfunction="A1" pintype="input"/>
     </net>
-    <net code="11" name="EEPROM_A2">
+    <net code="15" name="EEPROM_A2">
       <node ref="U5" pin="3" pinfunction="A2" pintype="input"/>
     </net>
-    <net code="12" name="EEPROM_SCL">
+    <net code="16" name="EEPROM_SCL">
       <node ref="U5" pin="6" pinfunction="SCL" pintype="input"/>
       <node ref="U6" pin="45" pinfunction="PB8" pintype="bidirectional"/>
     </net>
-    <net code="13" name="EEPROM_SDA">
+    <net code="17" name="EEPROM_SDA">
       <node ref="U5" pin="5" pinfunction="SDA" pintype="bidirectional"/>
       <node ref="U6" pin="46" pinfunction="PB9" pintype="bidirectional"/>
     </net>
-    <net code="14" name="GND">
+    <net code="18" name="GND">
+      <node ref="Battery-Charger1" pin="1" pinfunction="TEMP" pintype="input"/>
+      <node ref="Battery-Charger1" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="Battery-Charger1" pin="9" pinfunction="EP" pintype="passive"/>
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
@@ -1505,9 +1917,6 @@
       <node ref="C7" pin="2" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
       <node ref="C9" pin="2" pintype="passive"/>
-      <node ref="IC1" pin="4" pinfunction="VSS" pintype="passive"/>
-      <node ref="IC1" pin="5" pinfunction="VINB+" pintype="passive"/>
-      <node ref="IC1" pin="6" pinfunction="VINB-" pintype="passive"/>
       <node ref="J1" pin="5" pinfunction="GND" pintype="power_in"/>
       <node ref="J1" pin="S1" pinfunction="SHIELD" pintype="passive"/>
       <node ref="J1" pin="S2" pinfunction="SHIELD" pintype="passive"/>
@@ -1515,15 +1924,14 @@
       <node ref="J1" pin="S4" pinfunction="SHIELD" pintype="passive"/>
       <node ref="J1" pin="S5" pinfunction="SHIELD" pintype="passive"/>
       <node ref="J1" pin="S6" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="Op-Amp1" pin="4" pinfunction="VSS" pintype="passive"/>
+      <node ref="Op-Amp1" pin="5" pinfunction="VINB+" pintype="passive"/>
+      <node ref="Op-Amp1" pin="6" pinfunction="VINB-" pintype="passive"/>
       <node ref="R11" pin="2" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
       <node ref="R9" pin="2" pintype="passive"/>
-      <node ref="U1" pin="1" pinfunction="TEMP" pintype="input"/>
-      <node ref="U1" pin="3" pinfunction="GND" pintype="power_in"/>
-      <node ref="U1" pin="9" pinfunction="EP" pintype="passive"/>
-      <node ref="U2" pin="1" pintype="passive"/>
       <node ref="U3" pin="3" pinfunction="GND" pintype="power_in"/>
       <node ref="U4" pin="3" pinfunction="GND" pintype="power_in"/>
       <node ref="U5" pin="4" pinfunction="GND" pintype="power_in"/>
@@ -1532,270 +1940,255 @@
       <node ref="U6" pin="47" pinfunction="VSS" pintype="passive"/>
       <node ref="U6" pin="8" pinfunction="VSSA" pintype="power_in"/>
       <node ref="U7" pin="1" pinfunction="GND" pintype="power_in"/>
-      <node ref="U8" pin="1" pintype="passive"/>
+      <node ref="Voltage-Regulator-1" pin="1" pintype="passive"/>
+      <node ref="Voltage-Regulator-2" pin="1" pintype="passive"/>
     </net>
-    <net code="15" name="LDR_Vout">
-      <node ref="R6" pin="2" pintype="passive"/>
+    <net code="19" name="Net-(Battery-Charger1-PROG)">
+      <node ref="Battery-Charger1" pin="2" pinfunction="PROG" pintype="bidirectional"/>
+      <node ref="R2" pin="2" pintype="passive"/>
     </net>
-    <net code="16" name="LDR_Vout-A">
-      <node ref="R7" pin="1" pintype="passive"/>
+    <net code="20" name="Net-(Battery-Charger1-~{CHRG})">
+      <node ref="Battery-Charger1" pin="7" pinfunction="~{CHRG}" pintype="output"/>
+      <node ref="R1" pin="2" pintype="passive"/>
     </net>
-    <net code="17" name="Net-(BT1-PadP)">
-      <node ref="BT1" pin="P" pintype="passive"/>
-      <node ref="Q1" pin="3" pintype="passive"/>
+    <net code="21" name="Net-(Battery-Charger1-~{STDBY})">
+      <node ref="Battery-Charger1" pin="6" pinfunction="~{STDBY}" pintype="output"/>
+      <node ref="R4" pin="2" pintype="passive"/>
     </net>
-    <net code="18" name="Net-(D1-PadA)">
+    <net code="22" name="Net-(Battery-Holder1-PadP)">
+      <node ref="Battery-Holder1" pin="P" pintype="passive"/>
+      <node ref="P-Mos1" pin="3" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(D1-PadA)">
       <node ref="D1" pin="A" pintype="passive"/>
-      <node ref="Q1" pin="1" pintype="passive"/>
+      <node ref="P-Mos1" pin="1" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
     </net>
-    <net code="19" name="Net-(IC1-VOUTA)">
-      <node ref="IC1" pin="1" pinfunction="VOUTA" pintype="passive"/>
-      <node ref="Q2" pin="1" pintype="passive"/>
-    </net>
-    <net code="20" name="Net-(LED1-Pad1)">
+    <net code="24" name="Net-(LED1-Pad1)">
       <node ref="LED1" pin="1" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
     </net>
-    <net code="21" name="Net-(LED2-Pad1)">
+    <net code="25" name="Net-(LED2-Pad1)">
       <node ref="LED2" pin="1" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
     </net>
-    <net code="22" name="Net-(R6-Pad1)">
+    <net code="26" name="Net-(Op-Amp1-VOUTA)">
+      <node ref="N-Mos1" pin="1" pintype="passive"/>
+      <node ref="Op-Amp1" pin="1" pinfunction="VOUTA" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(R6-Pad1)">
       <node ref="R6" pin="1" pintype="passive"/>
       <node ref="R8" pin="2" pintype="passive"/>
       <node ref="R9" pin="1" pintype="passive"/>
       <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="23" name="Net-(R10-Pad2)">
+    <net code="28" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(R10-Pad2)">
       <node ref="R10" pin="2" pintype="passive"/>
       <node ref="R11" pin="1" pintype="passive"/>
       <node ref="R7" pin="2" pintype="passive"/>
       <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="24" name="Net-(U1-PROG)">
-      <node ref="R2" pin="2" pintype="passive"/>
-      <node ref="U1" pin="2" pinfunction="PROG" pintype="bidirectional"/>
-    </net>
-    <net code="25" name="Net-(U1-~{CHRG})">
-      <node ref="R1" pin="2" pintype="passive"/>
-      <node ref="U1" pin="7" pinfunction="~{CHRG}" pintype="output"/>
-    </net>
-    <net code="26" name="Net-(U1-~{STDBY})">
-      <node ref="R4" pin="2" pintype="passive"/>
-      <node ref="U1" pin="6" pinfunction="~{STDBY}" pintype="output"/>
-    </net>
-    <net code="27" name="Net-(U3-INT)">
+    <net code="30" name="Net-(U3-INT)">
       <node ref="R21" pin="2" pintype="passive"/>
       <node ref="U3" pin="5" pinfunction="INT" pintype="open_collector"/>
     </net>
-    <net code="28" name="Net-(U3-SCL)">
+    <net code="31" name="Net-(U3-SCL)">
       <node ref="R15" pin="2" pintype="passive"/>
       <node ref="R16" pin="2" pintype="passive"/>
       <node ref="U3" pin="4" pinfunction="SCL" pintype="input"/>
     </net>
-    <net code="29" name="Net-(U3-SDA)">
+    <net code="32" name="Net-(U3-SDA)">
       <node ref="R14" pin="1" pintype="passive"/>
       <node ref="R18" pin="2" pintype="passive"/>
       <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U3" pin="6" pinfunction="SDA" pintype="bidirectional"/>
     </net>
-    <net code="30" name="Net-(U4-INT)">
+    <net code="33" name="Net-(U4-INT)">
       <node ref="R20" pin="2" pintype="passive"/>
       <node ref="U4" pin="5" pinfunction="INT" pintype="open_collector"/>
     </net>
-    <net code="31" name="Net-(U4-SCL)">
+    <net code="34" name="Net-(U4-SCL)">
       <node ref="R13" pin="2" pintype="passive"/>
       <node ref="R17" pin="2" pintype="passive"/>
       <node ref="U4" pin="4" pinfunction="SCL" pintype="input"/>
     </net>
-    <net code="32" name="Net-(U4-SDA)">
+    <net code="35" name="Net-(U4-SDA)">
       <node ref="R12" pin="2" pintype="passive"/>
       <node ref="R19" pin="2" pintype="passive"/>
       <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U4" pin="6" pinfunction="SDA" pintype="bidirectional"/>
     </net>
-    <net code="33" name="SCL_ALS">
-      <node ref="R15" pin="1" pintype="passive"/>
-      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
-    </net>
-    <net code="34" name="SCL_ALS-A">
-      <node ref="R13" pin="1" pintype="passive"/>
-      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
-    </net>
-    <net code="35" name="SDA_ALS">
-      <node ref="R14" pin="2" pintype="passive"/>
-    </net>
-    <net code="36" name="SDA_ALS-A">
-      <node ref="R12" pin="1" pintype="passive"/>
-    </net>
-    <net code="37" name="USB_D+">
+    <net code="36" name="USB_D+">
       <node ref="J1" pin="3" pinfunction="D+" pintype="bidirectional"/>
       <node ref="U7" pin="5" pinfunction="UD+" pintype="bidirectional"/>
     </net>
-    <net code="38" name="USB_D-">
+    <net code="37" name="USB_D-">
       <node ref="J1" pin="2" pinfunction="D-" pintype="bidirectional"/>
       <node ref="U7" pin="6" pinfunction="UD-" pintype="bidirectional"/>
     </net>
-    <net code="39" name="USB_RXD">
+    <net code="38" name="USB_RXD">
       <node ref="U6" pin="30" pinfunction="PA9" pintype="bidirectional"/>
       <node ref="U7" pin="3" pinfunction="RXD" pintype="input"/>
     </net>
-    <net code="40" name="USB_TXD">
+    <net code="39" name="USB_TXD">
       <node ref="U6" pin="31" pinfunction="PA10" pintype="bidirectional"/>
       <node ref="U7" pin="2" pinfunction="TXD" pintype="output"/>
     </net>
-    <net code="41" name="unconnected-(IC1-VOUTB-Pad7)">
-      <node ref="IC1" pin="7" pinfunction="VOUTB" pintype="passive+no_connect"/>
+    <net code="40" name="unconnected-(Op-Amp1-VOUTB-Pad7)">
+      <node ref="Op-Amp1" pin="7" pinfunction="VOUTB" pintype="passive+no_connect"/>
     </net>
-    <net code="42" name="unconnected-(U3-NC-Pad2)">
+    <net code="41" name="unconnected-(U3-NC-Pad2)">
       <node ref="U3" pin="2" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="43" name="unconnected-(U4-NC-Pad2)">
+    <net code="42" name="unconnected-(U4-NC-Pad2)">
       <node ref="U4" pin="2" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="44" name="unconnected-(U6-BOOT0-Pad44)">
+    <net code="43" name="unconnected-(U6-BOOT0-Pad44)">
       <node ref="U6" pin="44" pinfunction="BOOT0" pintype="input"/>
     </net>
-    <net code="45" name="unconnected-(U6-NRST-Pad7)">
+    <net code="44" name="unconnected-(U6-NRST-Pad7)">
       <node ref="U6" pin="7" pinfunction="NRST" pintype="input"/>
     </net>
-    <net code="46" name="unconnected-(U6-PA0-Pad10)">
+    <net code="45" name="unconnected-(U6-PA0-Pad10)">
       <node ref="U6" pin="10" pinfunction="PA0" pintype="bidirectional"/>
     </net>
-    <net code="47" name="unconnected-(U6-PA1-Pad11)">
+    <net code="46" name="unconnected-(U6-PA1-Pad11)">
       <node ref="U6" pin="11" pinfunction="PA1" pintype="bidirectional"/>
     </net>
-    <net code="48" name="unconnected-(U6-PA2-Pad12)">
+    <net code="47" name="unconnected-(U6-PA2-Pad12)">
       <node ref="U6" pin="12" pinfunction="PA2" pintype="bidirectional"/>
     </net>
-    <net code="49" name="unconnected-(U6-PA3-Pad13)">
+    <net code="48" name="unconnected-(U6-PA3-Pad13)">
       <node ref="U6" pin="13" pinfunction="PA3" pintype="bidirectional"/>
     </net>
-    <net code="50" name="unconnected-(U6-PA4-Pad14)">
+    <net code="49" name="unconnected-(U6-PA4-Pad14)">
       <node ref="U6" pin="14" pinfunction="PA4" pintype="bidirectional"/>
     </net>
-    <net code="51" name="unconnected-(U6-PA5-Pad15)">
+    <net code="50" name="unconnected-(U6-PA5-Pad15)">
       <node ref="U6" pin="15" pinfunction="PA5" pintype="bidirectional"/>
     </net>
-    <net code="52" name="unconnected-(U6-PA6-Pad16)">
+    <net code="51" name="unconnected-(U6-PA6-Pad16)">
       <node ref="U6" pin="16" pinfunction="PA6" pintype="bidirectional"/>
     </net>
-    <net code="53" name="unconnected-(U6-PA7-Pad17)">
+    <net code="52" name="unconnected-(U6-PA7-Pad17)">
       <node ref="U6" pin="17" pinfunction="PA7" pintype="bidirectional"/>
     </net>
-    <net code="54" name="unconnected-(U6-PA8-Pad29)">
+    <net code="53" name="unconnected-(U6-PA8-Pad29)">
       <node ref="U6" pin="29" pinfunction="PA8" pintype="bidirectional"/>
     </net>
-    <net code="55" name="unconnected-(U6-PA11-Pad32)">
+    <net code="54" name="unconnected-(U6-PA11-Pad32)">
       <node ref="U6" pin="32" pinfunction="PA11" pintype="bidirectional"/>
     </net>
-    <net code="56" name="unconnected-(U6-PA12-Pad33)">
+    <net code="55" name="unconnected-(U6-PA12-Pad33)">
       <node ref="U6" pin="33" pinfunction="PA12" pintype="bidirectional"/>
     </net>
-    <net code="57" name="unconnected-(U6-PA13-Pad34)">
+    <net code="56" name="unconnected-(U6-PA13-Pad34)">
       <node ref="U6" pin="34" pinfunction="PA13" pintype="bidirectional"/>
     </net>
-    <net code="58" name="unconnected-(U6-PA14-Pad37)">
+    <net code="57" name="unconnected-(U6-PA14-Pad37)">
       <node ref="U6" pin="37" pinfunction="PA14" pintype="bidirectional"/>
     </net>
-    <net code="59" name="unconnected-(U6-PA15-Pad38)">
+    <net code="58" name="unconnected-(U6-PA15-Pad38)">
       <node ref="U6" pin="38" pinfunction="PA15" pintype="bidirectional"/>
     </net>
-    <net code="60" name="unconnected-(U6-PB0-Pad18)">
+    <net code="59" name="unconnected-(U6-PB0-Pad18)">
       <node ref="U6" pin="18" pinfunction="PB0" pintype="bidirectional"/>
     </net>
-    <net code="61" name="unconnected-(U6-PB1-Pad19)">
+    <net code="60" name="unconnected-(U6-PB1-Pad19)">
       <node ref="U6" pin="19" pinfunction="PB1" pintype="bidirectional"/>
     </net>
-    <net code="62" name="unconnected-(U6-PB2-Pad20)">
+    <net code="61" name="unconnected-(U6-PB2-Pad20)">
       <node ref="U6" pin="20" pinfunction="PB2" pintype="bidirectional"/>
     </net>
-    <net code="63" name="unconnected-(U6-PB3-Pad39)">
+    <net code="62" name="unconnected-(U6-PB3-Pad39)">
       <node ref="U6" pin="39" pinfunction="PB3" pintype="bidirectional"/>
     </net>
-    <net code="64" name="unconnected-(U6-PB4-Pad40)">
+    <net code="63" name="unconnected-(U6-PB4-Pad40)">
       <node ref="U6" pin="40" pinfunction="PB4" pintype="bidirectional"/>
     </net>
-    <net code="65" name="unconnected-(U6-PB5-Pad41)">
+    <net code="64" name="unconnected-(U6-PB5-Pad41)">
       <node ref="U6" pin="41" pinfunction="PB5" pintype="bidirectional"/>
     </net>
-    <net code="66" name="unconnected-(U6-PB6-Pad42)">
+    <net code="65" name="unconnected-(U6-PB6-Pad42)">
       <node ref="U6" pin="42" pinfunction="PB6" pintype="bidirectional"/>
     </net>
-    <net code="67" name="unconnected-(U6-PB7-Pad43)">
+    <net code="66" name="unconnected-(U6-PB7-Pad43)">
       <node ref="U6" pin="43" pinfunction="PB7" pintype="bidirectional"/>
     </net>
-    <net code="68" name="unconnected-(U6-PB10-Pad21)">
+    <net code="67" name="unconnected-(U6-PB10-Pad21)">
       <node ref="U6" pin="21" pinfunction="PB10" pintype="bidirectional"/>
     </net>
-    <net code="69" name="unconnected-(U6-PB11-Pad22)">
+    <net code="68" name="unconnected-(U6-PB11-Pad22)">
       <node ref="U6" pin="22" pinfunction="PB11" pintype="bidirectional"/>
     </net>
-    <net code="70" name="unconnected-(U6-PB12-Pad25)">
+    <net code="69" name="unconnected-(U6-PB12-Pad25)">
       <node ref="U6" pin="25" pinfunction="PB12" pintype="bidirectional"/>
     </net>
-    <net code="71" name="unconnected-(U6-PB13-Pad26)">
+    <net code="70" name="unconnected-(U6-PB13-Pad26)">
       <node ref="U6" pin="26" pinfunction="PB13" pintype="bidirectional"/>
     </net>
-    <net code="72" name="unconnected-(U6-PB14-Pad27)">
+    <net code="71" name="unconnected-(U6-PB14-Pad27)">
       <node ref="U6" pin="27" pinfunction="PB14" pintype="bidirectional"/>
     </net>
-    <net code="73" name="unconnected-(U6-PB15-Pad28)">
+    <net code="72" name="unconnected-(U6-PB15-Pad28)">
       <node ref="U6" pin="28" pinfunction="PB15" pintype="bidirectional"/>
     </net>
-    <net code="74" name="unconnected-(U6-PC13-Pad2)">
+    <net code="73" name="unconnected-(U6-PC13-Pad2)">
       <node ref="U6" pin="2" pinfunction="PC13" pintype="bidirectional"/>
     </net>
-    <net code="75" name="unconnected-(U6-PC14-Pad3)">
+    <net code="74" name="unconnected-(U6-PC14-Pad3)">
       <node ref="U6" pin="3" pinfunction="PC14" pintype="bidirectional"/>
     </net>
-    <net code="76" name="unconnected-(U6-PC15-Pad4)">
+    <net code="75" name="unconnected-(U6-PC15-Pad4)">
       <node ref="U6" pin="4" pinfunction="PC15" pintype="bidirectional"/>
     </net>
-    <net code="77" name="unconnected-(U6-PF0-Pad5)">
+    <net code="76" name="unconnected-(U6-PF0-Pad5)">
       <node ref="U6" pin="5" pinfunction="PF0" pintype="bidirectional"/>
     </net>
-    <net code="78" name="unconnected-(U6-PF1-Pad6)">
+    <net code="77" name="unconnected-(U6-PF1-Pad6)">
       <node ref="U6" pin="6" pinfunction="PF1" pintype="bidirectional"/>
     </net>
-    <net code="79" name="unconnected-(U6-PF6-Pad35)">
+    <net code="78" name="unconnected-(U6-PF6-Pad35)">
       <node ref="U6" pin="35" pinfunction="PF6" pintype="bidirectional"/>
     </net>
-    <net code="80" name="unconnected-(U6-PF7-Pad36)">
+    <net code="79" name="unconnected-(U6-PF7-Pad36)">
       <node ref="U6" pin="36" pinfunction="PF7" pintype="bidirectional"/>
     </net>
-    <net code="81" name="unconnected-(U6-VBAT-Pad1)">
+    <net code="80" name="unconnected-(U6-VBAT-Pad1)">
       <node ref="U6" pin="1" pinfunction="VBAT" pintype="power_in"/>
     </net>
-    <net code="82" name="unconnected-(U7-RS232-Pad15)">
+    <net code="81" name="unconnected-(U7-RS232-Pad15)">
       <node ref="U7" pin="15" pinfunction="RS232" pintype="input"/>
     </net>
-    <net code="83" name="unconnected-(U7-V3-Pad4)">
+    <net code="82" name="unconnected-(U7-V3-Pad4)">
       <node ref="U7" pin="4" pinfunction="V3" pintype="power_in"/>
     </net>
-    <net code="84" name="unconnected-(U7-XI-Pad7)">
+    <net code="83" name="unconnected-(U7-XI-Pad7)">
       <node ref="U7" pin="7" pinfunction="XI" pintype="input"/>
     </net>
-    <net code="85" name="unconnected-(U7-XO-Pad8)">
+    <net code="84" name="unconnected-(U7-XO-Pad8)">
       <node ref="U7" pin="8" pinfunction="XO" pintype="output"/>
     </net>
-    <net code="86" name="unconnected-(U7-~{CTS}-Pad9)">
+    <net code="85" name="unconnected-(U7-~{CTS}-Pad9)">
       <node ref="U7" pin="9" pinfunction="~{CTS}" pintype="input"/>
     </net>
-    <net code="87" name="unconnected-(U7-~{DCD}-Pad12)">
+    <net code="86" name="unconnected-(U7-~{DCD}-Pad12)">
       <node ref="U7" pin="12" pinfunction="~{DCD}" pintype="input"/>
     </net>
-    <net code="88" name="unconnected-(U7-~{DSR}-Pad10)">
+    <net code="87" name="unconnected-(U7-~{DSR}-Pad10)">
       <node ref="U7" pin="10" pinfunction="~{DSR}" pintype="input"/>
     </net>
-    <net code="89" name="unconnected-(U7-~{DTR}-Pad13)">
+    <net code="88" name="unconnected-(U7-~{DTR}-Pad13)">
       <node ref="U7" pin="13" pinfunction="~{DTR}" pintype="output"/>
     </net>
-    <net code="90" name="unconnected-(U7-~{RI}-Pad11)">
+    <net code="89" name="unconnected-(U7-~{RI}-Pad11)">
       <node ref="U7" pin="11" pinfunction="~{RI}" pintype="input"/>
     </net>
-    <net code="91" name="unconnected-(U7-~{RTS}-Pad14)">
+    <net code="90" name="unconnected-(U7-~{RTS}-Pad14)">
       <node ref="U7" pin="14" pinfunction="~{RTS}" pintype="output"/>
     </net>
   </nets>
