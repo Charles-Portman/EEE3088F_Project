@@ -2,12 +2,12 @@
 <export version="E">
   <design>
     <source>C:\Users\jakew\OneDrive\Documents\GitHub\EEE3088F_Project\EEE3088\EEE3088.kicad_sch</source>
-    <date>2023/03/06 07:33:55</date>
+    <date>2023/03/11 17:53:51</date>
     <tool>Eeschema (7.0.0)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
-        <company/>
+        <company>UCT</company>
         <rev/>
         <date/>
         <source>EEE3088.kicad_sch</source>
@@ -24,14 +24,14 @@
     </sheet>
     <sheet number="2" name="/Power_Subsystem/" tstamps="/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6/">
       <title_block>
-        <title/>
-        <company/>
+        <title>Power Schematic</title>
+        <company>UCT</company>
         <rev/>
-        <date/>
+        <date>2023-03-11</date>
         <source>Power_kicad_sch.kicad_sch</source>
         <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
+        <comment number="2" value="EEE3088F Design Project"/>
+        <comment number="3" value="Authour: Jake Wesselink"/>
         <comment number="4" value=""/>
         <comment number="5" value=""/>
         <comment number="6" value=""/>
@@ -43,7 +43,7 @@
     <sheet number="3" name="/Sensing_Subsystem/" tstamps="/d16a673b-d677-4a4a-a11c-ee22bd422692/">
       <title_block>
         <title/>
-        <company/>
+        <company>UCT</company>
         <rev/>
         <date/>
         <source>Sensing_kicad_sch.kicad_sch</source>
@@ -61,7 +61,7 @@
     <sheet number="4" name="/Microcontroller/" tstamps="/af4ae736-8069-4035-bb69-27168d826fe0/">
       <title_block>
         <title/>
-        <company/>
+        <company>UCT</company>
         <rev/>
         <date/>
         <source>Microcontroller_kicad_sch.kicad_sch</source>
@@ -134,6 +134,35 @@
       <sheetpath names="/Power_Subsystem/" tstamps="/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6/"/>
       <tstamps>f70545c5-2de5-4f41-8bf9-3ba37c6ced62</tstamps>
     </comp>
+    <comp ref="IC1">
+      <value>MCP6002T-I_SN</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/MCP6002T-I_SN.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">MCP6002T-I/SN</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/mcp6002t-isn/microchip-technology?region=nac</field>
+        <field name="Description">Op. Amplifier Dual 1MHz Low-Power SOIC8 Microchip MCP6002T-I/SN, Dual Low Power Op Amp, 1MHz Rail-Rail, 1.8  6 V, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">MCP6002T-I/SN</field>
+        <field name="Mouser Part Number">579-MCP6002T-I/SN</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Atmel/MCP6002T-I-SN?qs=hul3WK2zl4od4mMZEAcUDQ%3D%3D</field>
+      </fields>
+      <libsource lib="MCP6002T-I_SN" part="MCP6002T-I_SN" description="Op. Amplifier Dual 1MHz Low-Power SOIC8 Microchip MCP6002T-I/SN, Dual Low Power Op Amp, 1MHz Rail-Rail, 1.8  6 V, 8-Pin SOIC"/>
+      <property name="Description" value="Op. Amplifier Dual 1MHz Low-Power SOIC8 Microchip MCP6002T-I/SN, Dual Low Power Op Amp, 1MHz Rail-Rail, 1.8  6 V, 8-Pin SOIC"/>
+      <property name="Height" value="1.75"/>
+      <property name="Manufacturer_Name" value="Microchip"/>
+      <property name="Manufacturer_Part_Number" value="MCP6002T-I/SN"/>
+      <property name="Mouser Part Number" value="579-MCP6002T-I/SN"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Atmel/MCP6002T-I-SN?qs=hul3WK2zl4od4mMZEAcUDQ%3D%3D"/>
+      <property name="Arrow Part Number" value="MCP6002T-I/SN"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/mcp6002t-isn/microchip-technology?region=nac"/>
+      <property name="Sheetname" value="Power_Subsystem"/>
+      <property name="Sheetfile" value="Power_kicad_sch.kicad_sch"/>
+      <property name="ki_description" value="Op. Amplifier Dual 1MHz Low-Power SOIC8 Microchip MCP6002T-I/SN, Dual Low Power Op Amp, 1MHz Rail-Rail, 1.8  6 V, 8-Pin SOIC"/>
+      <sheetpath names="/Power_Subsystem/" tstamps="/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6/"/>
+      <tstamps>fa6c2ef6-cf06-401f-9e38-1da92d38ad98</tstamps>
+    </comp>
     <comp ref="LED1">
       <value>Red</value>
       <footprint>LEDC1608X70N</footprint>
@@ -161,28 +190,32 @@
     </comp>
     <comp ref="LED2">
       <value>Green</value>
-      <footprint>LEDC1608X70N</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf</datasheet>
+      <footprint>LEDC1608X50N</footprint>
+      <datasheet>https://www.arrow.com/en/products/19-217ghc-yr1s23t/everlight-electronics</datasheet>
       <fields>
-        <field name="Description">Red 615~{630nm} 1.9~{2.2V} 0603 Light Emitting Diodes (LED) RoHS</field>
-        <field name="Height">0.7</field>
-        <field name="Manufacturer_Name">Hubei KENTO Elec</field>
-        <field name="Manufacturer_Part_Number">KT-0603R</field>
+        <field name="Arrow Part Number">19-217/GHC-YR1S2/3T</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/19-217ghc-yr1s23t/everlight-electronics</field>
+        <field name="Description">Standard LEDs - SMD</field>
+        <field name="Height">0.5</field>
+        <field name="Manufacturer_Name">Everlight</field>
+        <field name="Manufacturer_Part_Number">19-217/GHC-YR1S2/3T</field>
+        <field name="Mouser Part Number">638-19217GHCYR1S23T</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Everlight/19-217-GHC-YR1S2-3T?qs=8cKuZ6Ok2lZjmFTUzVFjDg%3D%3D</field>
       </fields>
-      <libsource lib="KT-0603R" part="KT-0603R" description="Red 615~630nm 1.9~2.2V 0603 Light Emitting Diodes (LED) RoHS"/>
-      <property name="Description" value="Red 615~{630nm} 1.9~{2.2V} 0603 Light Emitting Diodes (LED) RoHS"/>
-      <property name="Height" value="0.7"/>
-      <property name="Manufacturer_Name" value="Hubei KENTO Elec"/>
-      <property name="Manufacturer_Part_Number" value="KT-0603R"/>
-      <property name="Mouser Part Number" value=""/>
-      <property name="Mouser Price/Stock" value=""/>
-      <property name="Arrow Part Number" value=""/>
-      <property name="Arrow Price/Stock" value=""/>
+      <libsource lib="19-217_GHC-YR1S2_3T" part="19-217_GHC-YR1S2_3T" description="Standard LEDs - SMD"/>
+      <property name="Description" value="Standard LEDs - SMD"/>
+      <property name="Height" value="0.5"/>
+      <property name="Manufacturer_Name" value="Everlight"/>
+      <property name="Manufacturer_Part_Number" value="19-217/GHC-YR1S2/3T"/>
+      <property name="Mouser Part Number" value="638-19217GHCYR1S23T"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Everlight/19-217-GHC-YR1S2-3T?qs=8cKuZ6Ok2lZjmFTUzVFjDg%3D%3D"/>
+      <property name="Arrow Part Number" value="19-217/GHC-YR1S2/3T"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/19-217ghc-yr1s23t/everlight-electronics"/>
       <property name="Sheetname" value="Power_Subsystem"/>
       <property name="Sheetfile" value="Power_kicad_sch.kicad_sch"/>
-      <property name="ki_description" value="Red 615~630nm 1.9~2.2V 0603 Light Emitting Diodes (LED) RoHS"/>
+      <property name="ki_description" value="Standard LEDs - SMD"/>
       <sheetpath names="/Power_Subsystem/" tstamps="/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6/"/>
-      <tstamps>22374807-a0e2-45ec-bbdf-7bfc25fa2c52</tstamps>
+      <tstamps>caa5cd0f-201d-435c-bebb-a6acb21c1aae</tstamps>
     </comp>
     <comp ref="Q1">
       <value>LBSS84LT1G</value>
@@ -210,6 +243,33 @@
       <property name="ki_description" value="P-MOSFET"/>
       <sheetpath names="/Power_Subsystem/" tstamps="/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6/"/>
       <tstamps>c8aa48ed-bca0-4926-9bc6-04230f71276e</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>AO3400A</value>
+      <footprint>SOT95P280X125-3N</footprint>
+      <datasheet>http://aosmd.com/res/data_sheets/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">AO3400A</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ao3400a/alpha-and-omega-semiconductor?region=europe</field>
+        <field name="Description">30V N-Channel MOSFET</field>
+        <field name="Height">1.25</field>
+        <field name="Manufacturer_Name">Alpha &amp; Omega Semiconductors</field>
+        <field name="Manufacturer_Part_Number">AO3400A</field>
+      </fields>
+      <libsource lib="AO3400A" part="AO3400A" description="30V N-Channel MOSFET"/>
+      <property name="Description" value="30V N-Channel MOSFET"/>
+      <property name="Height" value="1.25"/>
+      <property name="Manufacturer_Name" value="Alpha &amp; Omega Semiconductors"/>
+      <property name="Manufacturer_Part_Number" value="AO3400A"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Arrow Part Number" value="AO3400A"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/ao3400a/alpha-and-omega-semiconductor?region=europe"/>
+      <property name="Sheetname" value="Power_Subsystem"/>
+      <property name="Sheetfile" value="Power_kicad_sch.kicad_sch"/>
+      <property name="ki_description" value="30V N-Channel MOSFET"/>
+      <sheetpath names="/Power_Subsystem/" tstamps="/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6/"/>
+      <tstamps>39c00dce-9864-4a2c-b53d-fda7029d24d3</tstamps>
     </comp>
     <comp ref="R1">
       <value>1k</value>
@@ -262,31 +322,28 @@
       <tstamps>fb86159c-4e75-4976-8b4c-d75d7d146c04</tstamps>
     </comp>
     <comp ref="R3">
-      <value>0 </value>
-      <footprint>RESC1005X40N</footprint>
-      <datasheet>https://www.mouser.in/datasheet/2/1365/1-3044649.pdf</datasheet>
+      <value>1M</value>
+      <footprint>RESC2013X65N</footprint>
       <fields>
-        <field name="Description">Thick Film Resistors - SMD 0402 1/16W 1% 0R T/R-10000</field>
-        <field name="Height">0.4</field>
-        <field name="Manufacturer_Name">ROYALOHM</field>
-        <field name="Manufacturer_Part_Number">0402WGF0000TCE</field>
-        <field name="Mouser Part Number">303-0402WGF0000TCE</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Royalohm/0402WGF0000TCE?qs=e8oIoAS2J1QQohiDIE5NFA%3D%3D</field>
+        <field name="Description">Thick Film Chip Resistors 0805</field>
+        <field name="Height">0.65</field>
+        <field name="Manufacturer_Name">UniOhm</field>
+        <field name="Manufacturer_Part_Number">0805W8F1004T5E</field>
       </fields>
-      <libsource lib="0402WGF0000TCE" part="0402WGF0000TCE" description="Thick Film Resistors - SMD 0402 1/16W 1% 0R T/R-10000"/>
-      <property name="Description" value="Thick Film Resistors - SMD 0402 1/16W 1% 0R T/R-10000"/>
-      <property name="Height" value="0.4"/>
-      <property name="Manufacturer_Name" value="ROYALOHM"/>
-      <property name="Manufacturer_Part_Number" value="0402WGF0000TCE"/>
-      <property name="Mouser Part Number" value="303-0402WGF0000TCE"/>
-      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Royalohm/0402WGF0000TCE?qs=e8oIoAS2J1QQohiDIE5NFA%3D%3D"/>
+      <libsource lib="0805W8F1004T5E" part="0805W8F1004T5E" description="Thick Film Chip Resistors 0805"/>
+      <property name="Description" value="Thick Film Chip Resistors 0805"/>
+      <property name="Height" value="0.65"/>
+      <property name="Manufacturer_Name" value="UniOhm"/>
+      <property name="Manufacturer_Part_Number" value="0805W8F1004T5E"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
       <property name="Arrow Part Number" value=""/>
       <property name="Arrow Price/Stock" value=""/>
       <property name="Sheetname" value="Power_Subsystem"/>
       <property name="Sheetfile" value="Power_kicad_sch.kicad_sch"/>
-      <property name="ki_description" value="Thick Film Resistors - SMD 0402 1/16W 1% 0R T/R-10000"/>
+      <property name="ki_description" value="Thick Film Chip Resistors 0805"/>
       <sheetpath names="/Power_Subsystem/" tstamps="/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6/"/>
-      <tstamps>1a3f0749-e4aa-464d-a424-93f78b24d53e</tstamps>
+      <tstamps>132a9e10-8e3b-46fa-a7e8-8b6acf37938a</tstamps>
     </comp>
     <comp ref="R4">
       <value>1k</value>
@@ -338,6 +395,56 @@
       <sheetpath names="/Power_Subsystem/" tstamps="/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6/"/>
       <tstamps>35984062-9b81-4d6d-a88f-a3c3914e6256</tstamps>
     </comp>
+    <comp ref="TP8">
+      <value>TestPoint</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Power_Subsystem"/>
+      <property name="Sheetfile" value="Power_kicad_sch.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Power_Subsystem/" tstamps="/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6/"/>
+      <tstamps>74fe59d0-12d5-41e7-b4b3-126523afed69</tstamps>
+    </comp>
+    <comp ref="TP9">
+      <value>TestPoint</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Power_Subsystem"/>
+      <property name="Sheetfile" value="Power_kicad_sch.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Power_Subsystem/" tstamps="/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6/"/>
+      <tstamps>db0478e1-6e9f-4471-ad0c-f327ffcf7965</tstamps>
+    </comp>
+    <comp ref="TP10">
+      <value>TestPoint</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Power_Subsystem"/>
+      <property name="Sheetfile" value="Power_kicad_sch.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Power_Subsystem/" tstamps="/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6/"/>
+      <tstamps>a2f84ea0-4823-4de8-8d0a-a92799159b59</tstamps>
+    </comp>
+    <comp ref="TP11">
+      <value>TestPoint</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Power_Subsystem"/>
+      <property name="Sheetfile" value="Power_kicad_sch.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Power_Subsystem/" tstamps="/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6/"/>
+      <tstamps>b6e89fb2-219a-4619-b6d3-b73b9b6f37f5</tstamps>
+    </comp>
+    <comp ref="TP12">
+      <value>TestPoint</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Power_Subsystem"/>
+      <property name="Sheetfile" value="Power_kicad_sch.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Power_Subsystem/" tstamps="/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6/"/>
+      <tstamps>a7cb2dff-dc4f-44b6-9b93-950b69f8c338</tstamps>
+    </comp>
     <comp ref="U1">
       <value>TP4056</value>
       <footprint>SOP127P600X175-9N</footprint>
@@ -363,6 +470,15 @@
       <property name="Sheetfile" value="Power_kicad_sch.kicad_sch"/>
       <sheetpath names="/Power_Subsystem/" tstamps="/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6/"/>
       <tstamps>20fdaf76-ce58-4dee-a428-2c526118fd93</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>HT7533-1</value>
+      <footprint>SOT89</footprint>
+      <libsource lib="HT7533-1" part="HT7533-1" description=""/>
+      <property name="Sheetname" value="Power_Subsystem"/>
+      <property name="Sheetfile" value="Power_kicad_sch.kicad_sch"/>
+      <sheetpath names="/Power_Subsystem/" tstamps="/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6/"/>
+      <tstamps>1987ef62-53c6-4b3e-b91c-3f5ffbab8eec</tstamps>
     </comp>
     <comp ref="C3">
       <value>1uF</value>
@@ -761,26 +877,6 @@
     </comp>
   </components>
   <libparts>
-    <libpart lib="0402WGF0000TCE" part="0402WGF0000TCE">
-      <description>Thick Film Resistors - SMD 0402 1/16W 1% 0R T/R-10000</description>
-      <docs>https://www.mouser.in/datasheet/2/1365/1-3044649.pdf</docs>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">0402WGF0000TCE</field>
-        <field name="Footprint">RESC1005X40N</field>
-        <field name="Datasheet">https://www.mouser.in/datasheet/2/1365/1-3044649.pdf</field>
-        <field name="Description">Thick Film Resistors - SMD 0402 1/16W 1% 0R T/R-10000</field>
-        <field name="Height">0.4</field>
-        <field name="Manufacturer_Name">ROYALOHM</field>
-        <field name="Manufacturer_Part_Number">0402WGF0000TCE</field>
-        <field name="Mouser Part Number">303-0402WGF0000TCE</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Royalohm/0402WGF0000TCE?qs=e8oIoAS2J1QQohiDIE5NFA%3D%3D</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="0402WGF1001TCE" part="0402WGF1001TCE">
       <description>1K +/-1% 1/16W +/-100ppm/ 0402 Chip Resistor</description>
       <docs>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1001TCE_C11702.pdf</docs>
@@ -817,6 +913,22 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="0805W8F1004T5E" part="0805W8F1004T5E">
+      <description>Thick Film Chip Resistors 0805</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">0805W8F1004T5E</field>
+        <field name="Footprint">RESC2013X65N</field>
+        <field name="Description">Thick Film Chip Resistors 0805</field>
+        <field name="Height">0.65</field>
+        <field name="Manufacturer_Name">UniOhm</field>
+        <field name="Manufacturer_Part_Number">0805W8F1004T5E</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="1206W4F1003T5E" part="1206W4F1003T5E">
       <description>Chip Resistor - Surface Mount 100KOhms +/-1% 1/4W 1206 RoHS</description>
       <docs>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-1206W4F1003T5E_C17900.pdf</docs>
@@ -833,6 +945,49 @@
       <pins>
         <pin num="1" name="" type="passive"/>
         <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="19-217_GHC-YR1S2_3T" part="19-217_GHC-YR1S2_3T">
+      <description>Standard LEDs - SMD</description>
+      <docs>https://www.arrow.com/en/products/19-217ghc-yr1s23t/everlight-electronics</docs>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">19-217_GHC-YR1S2_3T</field>
+        <field name="Footprint">LEDC1608X50N</field>
+        <field name="Datasheet">https://www.arrow.com/en/products/19-217ghc-yr1s23t/everlight-electronics</field>
+        <field name="Description">Standard LEDs - SMD</field>
+        <field name="Height">0.5</field>
+        <field name="Manufacturer_Name">Everlight</field>
+        <field name="Manufacturer_Part_Number">19-217/GHC-YR1S2/3T</field>
+        <field name="Mouser Part Number">638-19217GHCYR1S23T</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Everlight/19-217-GHC-YR1S2-3T?qs=8cKuZ6Ok2lZjmFTUzVFjDg%3D%3D</field>
+        <field name="Arrow Part Number">19-217/GHC-YR1S2/3T</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/19-217ghc-yr1s23t/everlight-electronics</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AO3400A" part="AO3400A">
+      <description>30V N-Channel MOSFET</description>
+      <docs>http://aosmd.com/res/data_sheets/AO3400A.pdf</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">AO3400A</field>
+        <field name="Footprint">SOT95P280X125-3N</field>
+        <field name="Datasheet">http://aosmd.com/res/data_sheets/AO3400A.pdf</field>
+        <field name="Description">30V N-Channel MOSFET</field>
+        <field name="Height">1.25</field>
+        <field name="Manufacturer_Name">Alpha &amp; Omega Semiconductors</field>
+        <field name="Manufacturer_Part_Number">AO3400A</field>
+        <field name="Arrow Part Number">AO3400A</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ao3400a/alpha-and-omega-semiconductor?region=europe</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="AT24C256C-SSHL-T" part="AT24C256C-SSHL-T">
@@ -1023,6 +1178,34 @@
         <pin num="3" name="" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="MCP6002T-I_SN" part="MCP6002T-I_SN">
+      <description>Op. Amplifier Dual 1MHz Low-Power SOIC8 Microchip MCP6002T-I/SN, Dual Low Power Op Amp, 1MHz Rail-Rail, 1.8  6 V, 8-Pin SOIC</description>
+      <docs>https://componentsearchengine.com/Datasheets/2/MCP6002T-I_SN.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">MCP6002T-I_SN</field>
+        <field name="Footprint">SOIC127P600X175-8N</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/2/MCP6002T-I_SN.pdf</field>
+        <field name="Description">Op. Amplifier Dual 1MHz Low-Power SOIC8 Microchip MCP6002T-I/SN, Dual Low Power Op Amp, 1MHz Rail-Rail, 1.8  6 V, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">MCP6002T-I/SN</field>
+        <field name="Mouser Part Number">579-MCP6002T-I/SN</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Atmel/MCP6002T-I-SN?qs=hul3WK2zl4od4mMZEAcUDQ%3D%3D</field>
+        <field name="Arrow Part Number">MCP6002T-I/SN</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/mcp6002t-isn/microchip-technology?region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUTA" type="passive"/>
+        <pin num="2" name="VINA-" type="passive"/>
+        <pin num="3" name="VINA+" type="passive"/>
+        <pin num="4" name="VSS" type="passive"/>
+        <pin num="5" name="VINB+" type="passive"/>
+        <pin num="6" name="VINB-" type="passive"/>
+        <pin num="7" name="VOUTB" type="passive"/>
+        <pin num="8" name="VDD" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="MCU_ST_STM32F0" part="STM32F051C6Tx">
       <description>STMicroelectronics Arm Cortex-M0 MCU, 32KB flash, 8KB RAM, 48 MHz, 2.0-3.6V, 39 GPIO, LQFP48</description>
       <docs>https://www.st.com/resource/en/datasheet/stm32f051c6.pdf</docs>
@@ -1171,17 +1354,23 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="0402WGF0000TCE">
-      <uri>C:/Users/jakew/Downloads/LIB_0402WGF0000TCE/0402WGF0000TCE/KiCad/0402WGF0000TCE.lib</uri>
-    </library>
     <library logical="0402WGF1001TCE">
       <uri>C:/Users/jakew/Downloads/LIB_0402WGF1001TCE/0402WGF1001TCE/KiCad/0402WGF1001TCE.lib</uri>
     </library>
     <library logical="0603WAF1201T5E">
       <uri>C:/Users/jakew/Downloads/LIB_0603WAF1201T5E/0603WAF1201T5E/KiCad/0603WAF1201T5E.lib</uri>
     </library>
+    <library logical="0805W8F1004T5E">
+      <uri>C:/Users/jakew/Downloads/LIB_0805W8F1004T5E/0805W8F1004T5E/KiCad/0805W8F1004T5E.lib</uri>
+    </library>
     <library logical="1206W4F1003T5E">
       <uri>C:/Users/jakew/Downloads/LIB_1206W4F1003T5E/1206W4F1003T5E/KiCad/1206W4F1003T5E.lib</uri>
+    </library>
+    <library logical="19-217_GHC-YR1S2_3T">
+      <uri>C:/Users/jakew/Downloads/LIB_19-217_GHC-YR1S2_3T/19-217_GHC-YR1S2_3T/KiCad/19-217_GHC-YR1S2_3T.lib</uri>
+    </library>
+    <library logical="AO3400A">
+      <uri>C:/Users/jakew/Downloads/LIB_AO3400A/AO3400A/KiCad/AO3400A.lib</uri>
     </library>
     <library logical="BH-18650-PC">
       <uri>C:/Users/jakew/Downloads/BH-18650-PC/BH-18650-PC.kicad_sym</uri>
@@ -1206,6 +1395,9 @@
     </library>
     <library logical="LBSS84LT1G">
       <uri>C:/Users/jakew/Downloads/LIB_LBSS84LT1G/LBSS84LT1G/KiCad/LBSS84LT1G.lib</uri>
+    </library>
+    <library logical="MCP6002T-I_SN">
+      <uri>C:/Users/jakew/Downloads/LIB_MCP6002T-I_SN/MCP6002T-I_SN/KiCad/MCP6002T-I_SN.lib</uri>
     </library>
     <library logical="MCU_ST_STM32F0">
       <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/MCU_ST_STM32F0.kicad_sym</uri>
@@ -1234,6 +1426,7 @@
       <node ref="R20" pin="1" pintype="passive"/>
       <node ref="R21" pin="1" pintype="passive"/>
       <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="TP12" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U2" pin="3" pinfunction="VO" pintype="passive"/>
       <node ref="U3" pin="1" pinfunction="VDD" pintype="power_in"/>
@@ -1250,27 +1443,59 @@
     <net code="3" name="/Microcontroller/NC">
       <node ref="J1" pin="4" pinfunction="ID" pintype="bidirectional"/>
     </net>
-    <net code="4" name="5V">
-      <node ref="R3" pin="2" pintype="passive"/>
+    <net code="4" name="/Power_Subsystem/3.3-back">
+      <node ref="IC1" pin="2" pinfunction="VINA-" pintype="passive"/>
+      <node ref="TP11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U8" pin="3" pinfunction="VO" pintype="passive"/>
     </net>
-    <net code="5" name="EEPROM_A0">
+    <net code="5" name="/Power_Subsystem/V-Reg">
+      <node ref="Q2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="TP10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="VI" pintype="input"/>
+      <node ref="U2" pin="2@1" pinfunction="VI" pintype="input"/>
+      <node ref="U8" pin="2" pinfunction="VI" pintype="input"/>
+      <node ref="U8" pin="2@1" pinfunction="VI" pintype="input"/>
+    </net>
+    <net code="6" name="/Power_Subsystem/V-pos">
+      <node ref="D1" pin="C" pintype="passive"/>
+      <node ref="IC1" pin="8" pinfunction="VDD" pintype="passive"/>
+      <node ref="Q1" pin="2" pintype="passive"/>
+      <node ref="Q2" pin="3" pintype="passive"/>
+      <node ref="TP9" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="7" name="/Power_Subsystem/Vbat">
+      <node ref="BT1" pin="N" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="3" pinfunction="VINA+" pintype="passive"/>
+      <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="BAT" pintype="output"/>
+    </net>
+    <net code="8" name="5V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="LED1" pin="2" pintype="passive"/>
+      <node ref="LED2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U1" pin="8" pinfunction="CE" pintype="input"/>
+    </net>
+    <net code="9" name="EEPROM_A0">
       <node ref="U5" pin="1" pinfunction="A0" pintype="input"/>
     </net>
-    <net code="6" name="EEPROM_A1">
+    <net code="10" name="EEPROM_A1">
       <node ref="U5" pin="2" pinfunction="A1" pintype="input"/>
     </net>
-    <net code="7" name="EEPROM_A2">
+    <net code="11" name="EEPROM_A2">
       <node ref="U5" pin="3" pinfunction="A2" pintype="input"/>
     </net>
-    <net code="8" name="EEPROM_SCL">
+    <net code="12" name="EEPROM_SCL">
       <node ref="U5" pin="6" pinfunction="SCL" pintype="input"/>
       <node ref="U6" pin="45" pinfunction="PB8" pintype="bidirectional"/>
     </net>
-    <net code="9" name="EEPROM_SDA">
+    <net code="13" name="EEPROM_SDA">
       <node ref="U5" pin="5" pinfunction="SDA" pintype="bidirectional"/>
       <node ref="U6" pin="46" pinfunction="PB9" pintype="bidirectional"/>
     </net>
-    <net code="10" name="GND">
+    <net code="14" name="GND">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
@@ -1280,6 +1505,9 @@
       <node ref="C7" pin="2" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
       <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="4" pinfunction="VSS" pintype="passive"/>
+      <node ref="IC1" pin="5" pinfunction="VINB+" pintype="passive"/>
+      <node ref="IC1" pin="6" pinfunction="VINB-" pintype="passive"/>
       <node ref="J1" pin="5" pinfunction="GND" pintype="power_in"/>
       <node ref="J1" pin="S1" pinfunction="SHIELD" pintype="passive"/>
       <node ref="J1" pin="S2" pinfunction="SHIELD" pintype="passive"/>
@@ -1289,6 +1517,7 @@
       <node ref="J1" pin="S6" pinfunction="SHIELD" pintype="passive"/>
       <node ref="R11" pin="2" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
       <node ref="R9" pin="2" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="TEMP" pintype="input"/>
@@ -1303,281 +1532,270 @@
       <node ref="U6" pin="47" pinfunction="VSS" pintype="passive"/>
       <node ref="U6" pin="8" pinfunction="VSSA" pintype="power_in"/>
       <node ref="U7" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U8" pin="1" pintype="passive"/>
     </net>
-    <net code="11" name="LDR_Vout">
+    <net code="15" name="LDR_Vout">
       <node ref="R6" pin="2" pintype="passive"/>
     </net>
-    <net code="12" name="LDR_Vout-A">
+    <net code="16" name="LDR_Vout-A">
       <node ref="R7" pin="1" pintype="passive"/>
     </net>
-    <net code="13" name="Net-(BT1-PadP)">
+    <net code="17" name="Net-(BT1-PadP)">
       <node ref="BT1" pin="P" pintype="passive"/>
       <node ref="Q1" pin="3" pintype="passive"/>
     </net>
-    <net code="14" name="Net-(D1-PadA)">
+    <net code="18" name="Net-(D1-PadA)">
       <node ref="D1" pin="A" pintype="passive"/>
       <node ref="Q1" pin="1" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
     </net>
-    <net code="15" name="Net-(LED1-Pad1)">
+    <net code="19" name="Net-(IC1-VOUTA)">
+      <node ref="IC1" pin="1" pinfunction="VOUTA" pintype="passive"/>
+      <node ref="Q2" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(LED1-Pad1)">
       <node ref="LED1" pin="1" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
     </net>
-    <net code="16" name="Net-(LED2-Pad1)">
+    <net code="21" name="Net-(LED2-Pad1)">
       <node ref="LED2" pin="1" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
     </net>
-    <net code="17" name="Net-(R6-Pad1)">
+    <net code="22" name="Net-(R6-Pad1)">
       <node ref="R6" pin="1" pintype="passive"/>
       <node ref="R8" pin="2" pintype="passive"/>
       <node ref="R9" pin="1" pintype="passive"/>
       <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="18" name="Net-(R10-Pad2)">
+    <net code="23" name="Net-(R10-Pad2)">
       <node ref="R10" pin="2" pintype="passive"/>
       <node ref="R11" pin="1" pintype="passive"/>
       <node ref="R7" pin="2" pintype="passive"/>
       <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="19" name="Net-(U1-CE)">
-      <node ref="C1" pin="1" pintype="passive"/>
-      <node ref="LED1" pin="2" pintype="passive"/>
-      <node ref="LED2" pin="2" pintype="passive"/>
-      <node ref="R3" pin="1" pintype="passive"/>
-      <node ref="U1" pin="4" pinfunction="VCC" pintype="power_in"/>
-      <node ref="U1" pin="8" pinfunction="CE" pintype="input"/>
-    </net>
-    <net code="20" name="Net-(U1-PROG)">
+    <net code="24" name="Net-(U1-PROG)">
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="PROG" pintype="bidirectional"/>
     </net>
-    <net code="21" name="Net-(U1-~{CHRG})">
+    <net code="25" name="Net-(U1-~{CHRG})">
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="U1" pin="7" pinfunction="~{CHRG}" pintype="output"/>
     </net>
-    <net code="22" name="Net-(U1-~{STDBY})">
+    <net code="26" name="Net-(U1-~{STDBY})">
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="U1" pin="6" pinfunction="~{STDBY}" pintype="output"/>
     </net>
-    <net code="23" name="Net-(U3-INT)">
+    <net code="27" name="Net-(U3-INT)">
       <node ref="R21" pin="2" pintype="passive"/>
       <node ref="U3" pin="5" pinfunction="INT" pintype="open_collector"/>
     </net>
-    <net code="24" name="Net-(U3-SCL)">
+    <net code="28" name="Net-(U3-SCL)">
       <node ref="R15" pin="2" pintype="passive"/>
       <node ref="R16" pin="2" pintype="passive"/>
       <node ref="U3" pin="4" pinfunction="SCL" pintype="input"/>
     </net>
-    <net code="25" name="Net-(U3-SDA)">
+    <net code="29" name="Net-(U3-SDA)">
       <node ref="R14" pin="1" pintype="passive"/>
       <node ref="R18" pin="2" pintype="passive"/>
       <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U3" pin="6" pinfunction="SDA" pintype="bidirectional"/>
     </net>
-    <net code="26" name="Net-(U4-INT)">
+    <net code="30" name="Net-(U4-INT)">
       <node ref="R20" pin="2" pintype="passive"/>
       <node ref="U4" pin="5" pinfunction="INT" pintype="open_collector"/>
     </net>
-    <net code="27" name="Net-(U4-SCL)">
+    <net code="31" name="Net-(U4-SCL)">
       <node ref="R13" pin="2" pintype="passive"/>
       <node ref="R17" pin="2" pintype="passive"/>
       <node ref="U4" pin="4" pinfunction="SCL" pintype="input"/>
     </net>
-    <net code="28" name="Net-(U4-SDA)">
+    <net code="32" name="Net-(U4-SDA)">
       <node ref="R12" pin="2" pintype="passive"/>
       <node ref="R19" pin="2" pintype="passive"/>
       <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U4" pin="6" pinfunction="SDA" pintype="bidirectional"/>
     </net>
-    <net code="29" name="SCL_ALS">
+    <net code="33" name="SCL_ALS">
       <node ref="R15" pin="1" pintype="passive"/>
       <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="30" name="SCL_ALS-A">
+    <net code="34" name="SCL_ALS-A">
       <node ref="R13" pin="1" pintype="passive"/>
       <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="31" name="SDA_ALS">
+    <net code="35" name="SDA_ALS">
       <node ref="R14" pin="2" pintype="passive"/>
     </net>
-    <net code="32" name="SDA_ALS-A">
+    <net code="36" name="SDA_ALS-A">
       <node ref="R12" pin="1" pintype="passive"/>
     </net>
-    <net code="33" name="USB_D+">
+    <net code="37" name="USB_D+">
       <node ref="J1" pin="3" pinfunction="D+" pintype="bidirectional"/>
       <node ref="U7" pin="5" pinfunction="UD+" pintype="bidirectional"/>
     </net>
-    <net code="34" name="USB_D-">
+    <net code="38" name="USB_D-">
       <node ref="J1" pin="2" pinfunction="D-" pintype="bidirectional"/>
       <node ref="U7" pin="6" pinfunction="UD-" pintype="bidirectional"/>
     </net>
-    <net code="35" name="USB_RXD">
+    <net code="39" name="USB_RXD">
       <node ref="U6" pin="30" pinfunction="PA9" pintype="bidirectional"/>
       <node ref="U7" pin="3" pinfunction="RXD" pintype="input"/>
     </net>
-    <net code="36" name="USB_TXD">
+    <net code="40" name="USB_TXD">
       <node ref="U6" pin="31" pinfunction="PA10" pintype="bidirectional"/>
       <node ref="U7" pin="2" pinfunction="TXD" pintype="output"/>
     </net>
-    <net code="37" name="Vbat">
-      <node ref="BT1" pin="N" pintype="passive"/>
-      <node ref="C2" pin="1" pintype="passive"/>
-      <node ref="U1" pin="5" pinfunction="BAT" pintype="output"/>
+    <net code="41" name="unconnected-(IC1-VOUTB-Pad7)">
+      <node ref="IC1" pin="7" pinfunction="VOUTB" pintype="passive+no_connect"/>
     </net>
-    <net code="38" name="Vout">
-      <node ref="D1" pin="C" pintype="passive"/>
-      <node ref="Q1" pin="2" pintype="passive"/>
-      <node ref="U2" pin="2" pinfunction="VI" pintype="input"/>
-      <node ref="U2" pin="2@1" pinfunction="VI" pintype="input"/>
-    </net>
-    <net code="39" name="unconnected-(U3-NC-Pad2)">
+    <net code="42" name="unconnected-(U3-NC-Pad2)">
       <node ref="U3" pin="2" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="40" name="unconnected-(U4-NC-Pad2)">
+    <net code="43" name="unconnected-(U4-NC-Pad2)">
       <node ref="U4" pin="2" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="41" name="unconnected-(U6-BOOT0-Pad44)">
+    <net code="44" name="unconnected-(U6-BOOT0-Pad44)">
       <node ref="U6" pin="44" pinfunction="BOOT0" pintype="input"/>
     </net>
-    <net code="42" name="unconnected-(U6-NRST-Pad7)">
+    <net code="45" name="unconnected-(U6-NRST-Pad7)">
       <node ref="U6" pin="7" pinfunction="NRST" pintype="input"/>
     </net>
-    <net code="43" name="unconnected-(U6-PA0-Pad10)">
+    <net code="46" name="unconnected-(U6-PA0-Pad10)">
       <node ref="U6" pin="10" pinfunction="PA0" pintype="bidirectional"/>
     </net>
-    <net code="44" name="unconnected-(U6-PA1-Pad11)">
+    <net code="47" name="unconnected-(U6-PA1-Pad11)">
       <node ref="U6" pin="11" pinfunction="PA1" pintype="bidirectional"/>
     </net>
-    <net code="45" name="unconnected-(U6-PA2-Pad12)">
+    <net code="48" name="unconnected-(U6-PA2-Pad12)">
       <node ref="U6" pin="12" pinfunction="PA2" pintype="bidirectional"/>
     </net>
-    <net code="46" name="unconnected-(U6-PA3-Pad13)">
+    <net code="49" name="unconnected-(U6-PA3-Pad13)">
       <node ref="U6" pin="13" pinfunction="PA3" pintype="bidirectional"/>
     </net>
-    <net code="47" name="unconnected-(U6-PA4-Pad14)">
+    <net code="50" name="unconnected-(U6-PA4-Pad14)">
       <node ref="U6" pin="14" pinfunction="PA4" pintype="bidirectional"/>
     </net>
-    <net code="48" name="unconnected-(U6-PA5-Pad15)">
+    <net code="51" name="unconnected-(U6-PA5-Pad15)">
       <node ref="U6" pin="15" pinfunction="PA5" pintype="bidirectional"/>
     </net>
-    <net code="49" name="unconnected-(U6-PA6-Pad16)">
+    <net code="52" name="unconnected-(U6-PA6-Pad16)">
       <node ref="U6" pin="16" pinfunction="PA6" pintype="bidirectional"/>
     </net>
-    <net code="50" name="unconnected-(U6-PA7-Pad17)">
+    <net code="53" name="unconnected-(U6-PA7-Pad17)">
       <node ref="U6" pin="17" pinfunction="PA7" pintype="bidirectional"/>
     </net>
-    <net code="51" name="unconnected-(U6-PA8-Pad29)">
+    <net code="54" name="unconnected-(U6-PA8-Pad29)">
       <node ref="U6" pin="29" pinfunction="PA8" pintype="bidirectional"/>
     </net>
-    <net code="52" name="unconnected-(U6-PA11-Pad32)">
+    <net code="55" name="unconnected-(U6-PA11-Pad32)">
       <node ref="U6" pin="32" pinfunction="PA11" pintype="bidirectional"/>
     </net>
-    <net code="53" name="unconnected-(U6-PA12-Pad33)">
+    <net code="56" name="unconnected-(U6-PA12-Pad33)">
       <node ref="U6" pin="33" pinfunction="PA12" pintype="bidirectional"/>
     </net>
-    <net code="54" name="unconnected-(U6-PA13-Pad34)">
+    <net code="57" name="unconnected-(U6-PA13-Pad34)">
       <node ref="U6" pin="34" pinfunction="PA13" pintype="bidirectional"/>
     </net>
-    <net code="55" name="unconnected-(U6-PA14-Pad37)">
+    <net code="58" name="unconnected-(U6-PA14-Pad37)">
       <node ref="U6" pin="37" pinfunction="PA14" pintype="bidirectional"/>
     </net>
-    <net code="56" name="unconnected-(U6-PA15-Pad38)">
+    <net code="59" name="unconnected-(U6-PA15-Pad38)">
       <node ref="U6" pin="38" pinfunction="PA15" pintype="bidirectional"/>
     </net>
-    <net code="57" name="unconnected-(U6-PB0-Pad18)">
+    <net code="60" name="unconnected-(U6-PB0-Pad18)">
       <node ref="U6" pin="18" pinfunction="PB0" pintype="bidirectional"/>
     </net>
-    <net code="58" name="unconnected-(U6-PB1-Pad19)">
+    <net code="61" name="unconnected-(U6-PB1-Pad19)">
       <node ref="U6" pin="19" pinfunction="PB1" pintype="bidirectional"/>
     </net>
-    <net code="59" name="unconnected-(U6-PB2-Pad20)">
+    <net code="62" name="unconnected-(U6-PB2-Pad20)">
       <node ref="U6" pin="20" pinfunction="PB2" pintype="bidirectional"/>
     </net>
-    <net code="60" name="unconnected-(U6-PB3-Pad39)">
+    <net code="63" name="unconnected-(U6-PB3-Pad39)">
       <node ref="U6" pin="39" pinfunction="PB3" pintype="bidirectional"/>
     </net>
-    <net code="61" name="unconnected-(U6-PB4-Pad40)">
+    <net code="64" name="unconnected-(U6-PB4-Pad40)">
       <node ref="U6" pin="40" pinfunction="PB4" pintype="bidirectional"/>
     </net>
-    <net code="62" name="unconnected-(U6-PB5-Pad41)">
+    <net code="65" name="unconnected-(U6-PB5-Pad41)">
       <node ref="U6" pin="41" pinfunction="PB5" pintype="bidirectional"/>
     </net>
-    <net code="63" name="unconnected-(U6-PB6-Pad42)">
+    <net code="66" name="unconnected-(U6-PB6-Pad42)">
       <node ref="U6" pin="42" pinfunction="PB6" pintype="bidirectional"/>
     </net>
-    <net code="64" name="unconnected-(U6-PB7-Pad43)">
+    <net code="67" name="unconnected-(U6-PB7-Pad43)">
       <node ref="U6" pin="43" pinfunction="PB7" pintype="bidirectional"/>
     </net>
-    <net code="65" name="unconnected-(U6-PB10-Pad21)">
+    <net code="68" name="unconnected-(U6-PB10-Pad21)">
       <node ref="U6" pin="21" pinfunction="PB10" pintype="bidirectional"/>
     </net>
-    <net code="66" name="unconnected-(U6-PB11-Pad22)">
+    <net code="69" name="unconnected-(U6-PB11-Pad22)">
       <node ref="U6" pin="22" pinfunction="PB11" pintype="bidirectional"/>
     </net>
-    <net code="67" name="unconnected-(U6-PB12-Pad25)">
+    <net code="70" name="unconnected-(U6-PB12-Pad25)">
       <node ref="U6" pin="25" pinfunction="PB12" pintype="bidirectional"/>
     </net>
-    <net code="68" name="unconnected-(U6-PB13-Pad26)">
+    <net code="71" name="unconnected-(U6-PB13-Pad26)">
       <node ref="U6" pin="26" pinfunction="PB13" pintype="bidirectional"/>
     </net>
-    <net code="69" name="unconnected-(U6-PB14-Pad27)">
+    <net code="72" name="unconnected-(U6-PB14-Pad27)">
       <node ref="U6" pin="27" pinfunction="PB14" pintype="bidirectional"/>
     </net>
-    <net code="70" name="unconnected-(U6-PB15-Pad28)">
+    <net code="73" name="unconnected-(U6-PB15-Pad28)">
       <node ref="U6" pin="28" pinfunction="PB15" pintype="bidirectional"/>
     </net>
-    <net code="71" name="unconnected-(U6-PC13-Pad2)">
+    <net code="74" name="unconnected-(U6-PC13-Pad2)">
       <node ref="U6" pin="2" pinfunction="PC13" pintype="bidirectional"/>
     </net>
-    <net code="72" name="unconnected-(U6-PC14-Pad3)">
+    <net code="75" name="unconnected-(U6-PC14-Pad3)">
       <node ref="U6" pin="3" pinfunction="PC14" pintype="bidirectional"/>
     </net>
-    <net code="73" name="unconnected-(U6-PC15-Pad4)">
+    <net code="76" name="unconnected-(U6-PC15-Pad4)">
       <node ref="U6" pin="4" pinfunction="PC15" pintype="bidirectional"/>
     </net>
-    <net code="74" name="unconnected-(U6-PF0-Pad5)">
+    <net code="77" name="unconnected-(U6-PF0-Pad5)">
       <node ref="U6" pin="5" pinfunction="PF0" pintype="bidirectional"/>
     </net>
-    <net code="75" name="unconnected-(U6-PF1-Pad6)">
+    <net code="78" name="unconnected-(U6-PF1-Pad6)">
       <node ref="U6" pin="6" pinfunction="PF1" pintype="bidirectional"/>
     </net>
-    <net code="76" name="unconnected-(U6-PF6-Pad35)">
+    <net code="79" name="unconnected-(U6-PF6-Pad35)">
       <node ref="U6" pin="35" pinfunction="PF6" pintype="bidirectional"/>
     </net>
-    <net code="77" name="unconnected-(U6-PF7-Pad36)">
+    <net code="80" name="unconnected-(U6-PF7-Pad36)">
       <node ref="U6" pin="36" pinfunction="PF7" pintype="bidirectional"/>
     </net>
-    <net code="78" name="unconnected-(U6-VBAT-Pad1)">
+    <net code="81" name="unconnected-(U6-VBAT-Pad1)">
       <node ref="U6" pin="1" pinfunction="VBAT" pintype="power_in"/>
     </net>
-    <net code="79" name="unconnected-(U7-RS232-Pad15)">
+    <net code="82" name="unconnected-(U7-RS232-Pad15)">
       <node ref="U7" pin="15" pinfunction="RS232" pintype="input"/>
     </net>
-    <net code="80" name="unconnected-(U7-V3-Pad4)">
+    <net code="83" name="unconnected-(U7-V3-Pad4)">
       <node ref="U7" pin="4" pinfunction="V3" pintype="power_in"/>
     </net>
-    <net code="81" name="unconnected-(U7-XI-Pad7)">
+    <net code="84" name="unconnected-(U7-XI-Pad7)">
       <node ref="U7" pin="7" pinfunction="XI" pintype="input"/>
     </net>
-    <net code="82" name="unconnected-(U7-XO-Pad8)">
+    <net code="85" name="unconnected-(U7-XO-Pad8)">
       <node ref="U7" pin="8" pinfunction="XO" pintype="output"/>
     </net>
-    <net code="83" name="unconnected-(U7-~{CTS}-Pad9)">
+    <net code="86" name="unconnected-(U7-~{CTS}-Pad9)">
       <node ref="U7" pin="9" pinfunction="~{CTS}" pintype="input"/>
     </net>
-    <net code="84" name="unconnected-(U7-~{DCD}-Pad12)">
+    <net code="87" name="unconnected-(U7-~{DCD}-Pad12)">
       <node ref="U7" pin="12" pinfunction="~{DCD}" pintype="input"/>
     </net>
-    <net code="85" name="unconnected-(U7-~{DSR}-Pad10)">
+    <net code="88" name="unconnected-(U7-~{DSR}-Pad10)">
       <node ref="U7" pin="10" pinfunction="~{DSR}" pintype="input"/>
     </net>
-    <net code="86" name="unconnected-(U7-~{DTR}-Pad13)">
+    <net code="89" name="unconnected-(U7-~{DTR}-Pad13)">
       <node ref="U7" pin="13" pinfunction="~{DTR}" pintype="output"/>
     </net>
-    <net code="87" name="unconnected-(U7-~{RI}-Pad11)">
+    <net code="90" name="unconnected-(U7-~{RI}-Pad11)">
       <node ref="U7" pin="11" pinfunction="~{RI}" pintype="input"/>
     </net>
-    <net code="88" name="unconnected-(U7-~{RTS}-Pad14)">
+    <net code="91" name="unconnected-(U7-~{RTS}-Pad14)">
       <node ref="U7" pin="14" pinfunction="~{RTS}" pintype="output"/>
     </net>
   </nets>
