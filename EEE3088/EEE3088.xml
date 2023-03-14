@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\jakew\OneDrive\Documents\GitHub\EEE3088F_Project\EEE3088\EEE3088.kicad_sch</source>
-    <date>2023/03/12 15:03:19</date>
+    <date>2023/03/14 08:13:05</date>
     <tool>Eeschema (7.0.0)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -744,7 +744,6 @@
     </comp>
     <comp ref="C3">
       <value>1uF</value>
-      <footprint>CL21B105KBFNNNE</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1810191216_Samsung-Electro-Mechanics-CL21B105KBFNNNE_C28323.pdf</datasheet>
       <fields>
         <field name="Description">1uF Cap 0805</field>
@@ -765,7 +764,6 @@
     </comp>
     <comp ref="C4">
       <value>1uF</value>
-      <footprint>CL21B105KBFNNNE</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1810191216_Samsung-Electro-Mechanics-CL21B105KBFNNNE_C28323.pdf</datasheet>
       <fields>
         <field name="Description">1uF Cap 0805</field>
@@ -1314,10 +1312,19 @@
     </comp>
     <comp ref="C5">
       <value>100nF</value>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf</datasheet>
+      <fields>
+        <field name="Description">100nF Cap</field>
+        <field name="Extended">0</field>
+        <field name="Manufacturer_Part_Number">CC0603KRX7R9BB104</field>
+        <field name="Price">0.01</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Price" value=""/>
+      <property name="Price" value="0.01"/>
       <property name="Basic" value=""/>
-      <property name="Extended" value=""/>
+      <property name="Extended" value="0"/>
+      <property name="Description" value="100nF Cap"/>
+      <property name="Manufacturer_Part_Number" value="CC0603KRX7R9BB104"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -1327,10 +1334,19 @@
     </comp>
     <comp ref="C6">
       <value>100nF</value>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf</datasheet>
+      <fields>
+        <field name="Description">100nF Cap</field>
+        <field name="Extended">0</field>
+        <field name="Manufacturer_Part_Number">CC0603KRX7R9BB104</field>
+        <field name="Price">0.01</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Price" value=""/>
+      <property name="Price" value="0.01"/>
       <property name="Basic" value=""/>
-      <property name="Extended" value=""/>
+      <property name="Extended" value="0"/>
+      <property name="Description" value="100nF Cap"/>
+      <property name="Manufacturer_Part_Number" value="CC0603KRX7R9BB104"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -1340,10 +1356,19 @@
     </comp>
     <comp ref="C7">
       <value>4.7uF</value>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810261822_Samsung-Electro-Mechanics-CL21A475KAQNNNE_C1779.pdf</datasheet>
+      <fields>
+        <field name="Description">4.7uF</field>
+        <field name="Extended">0</field>
+        <field name="Manufacturer_Part_Number">CL21A475KAQNNNE</field>
+        <field name="Price">0.01</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Price" value=""/>
+      <property name="Price" value="0.01"/>
       <property name="Basic" value=""/>
-      <property name="Extended" value=""/>
+      <property name="Extended" value="0"/>
+      <property name="Description" value="4.7uF"/>
+      <property name="Manufacturer_Part_Number" value="CL21A475KAQNNNE"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -1353,10 +1378,20 @@
     </comp>
     <comp ref="C8">
       <value>10nF</value>
+      <footprint>CL21B103KBANNNC</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811151136_Samsung-Electro-Mechanics-CL21B103KBANNNC_C1710.pdf</datasheet>
+      <fields>
+        <field name="Description">10nF Cap</field>
+        <field name="Extended">0</field>
+        <field name="Manufacturer_Part_Number">CL21B103KBANNNC</field>
+        <field name="Price">0.01</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Price" value=""/>
+      <property name="Price" value="0.01"/>
       <property name="Basic" value=""/>
-      <property name="Extended" value=""/>
+      <property name="Extended" value="0"/>
+      <property name="Description" value="10nF Cap"/>
+      <property name="Manufacturer_Part_Number" value="CL21B103KBANNNC"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller_kicad_sch.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -1366,7 +1401,6 @@
     </comp>
     <comp ref="C9">
       <value>1uF</value>
-      <footprint>CL21B105KBFNNNE</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1810191216_Samsung-Electro-Mechanics-CL21B105KBFNNNE_C28323.pdf</datasheet>
       <fields>
         <field name="Description">1uF Cap 0805</field>
@@ -1388,10 +1422,15 @@
     <comp ref="J1">
       <value>MICROXNJ</value>
       <footprint>SHOUHAN_MICROXNJ</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2204151400_SHOU-HAN-MicroXNJ_C404969.pdf</datasheet>
       <fields>
+        <field name="Description">USB interface</field>
+        <field name="Extended">0</field>
         <field name="MANUFACTURER">SHOUHAN</field>
         <field name="MAXIMUM_PACKAGE_HEIGHT">3mm</field>
+        <field name="Manufacturer_Part_Number">MicroXNJ</field>
         <field name="PARTREV">A</field>
+        <field name="Price">0.03</field>
         <field name="STANDARD">Manufacturer Recommendations</field>
       </fields>
       <libsource lib="MICROXNJ" part="MICROXNJ" description=""/>
@@ -1399,9 +1438,11 @@
       <property name="PARTREV" value="A"/>
       <property name="MANUFACTURER" value="SHOUHAN"/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value="3mm"/>
-      <property name="Price" value=""/>
+      <property name="Price" value="0.03"/>
       <property name="Basic" value=""/>
-      <property name="Extended" value=""/>
+      <property name="Extended" value="0"/>
+      <property name="Description" value="USB interface"/>
+      <property name="Manufacturer_Part_Number" value="MicroXNJ"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller_kicad_sch.kicad_sch"/>
       <sheetpath names="/Microcontroller/" tstamps="/af4ae736-8069-4035-bb69-27168d826fe0/"/>
@@ -1490,14 +1531,18 @@
     <comp ref="U3">
       <value>AT24C256C-SSHL-T</value>
       <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1809151932_Microchip-Tech-AT24C256C-SSHL-T_C6482.pdf</datasheet>
       <fields>
+        <field name="Extended">0</field>
         <field name="MANUFACTURER">Atmel</field>
+        <field name="Manufacturer_Part_Number">AT24C256C-SSHL-T</field>
       </fields>
       <libsource lib="AT24C256C-SSHL-T" part="AT24C256C-SSHL-T" description=""/>
       <property name="MANUFACTURER" value="Atmel"/>
       <property name="Price" value=""/>
       <property name="Basic" value=""/>
-      <property name="Extended" value=""/>
+      <property name="Extended" value="0"/>
+      <property name="Manufacturer_Part_Number" value="AT24C256C-SSHL-T"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller_kicad_sch.kicad_sch"/>
       <sheetpath names="/Microcontroller/" tstamps="/af4ae736-8069-4035-bb69-27168d826fe0/"/>
@@ -1506,10 +1551,14 @@
     <comp ref="U4">
       <value>CH340G</value>
       <footprint>SOIC127P600X180-16N</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2008191806_WCH-Jiangsu-Qin-Heng-CH340G_C14267.pdf</datasheet>
       <fields>
+        <field name="Extended">0</field>
         <field name="MANUFACTURER">WCH</field>
         <field name="MAXIMUM_PACKAGE_HEIGHT">1.8 mm</field>
+        <field name="Manufacturer_Part_Number">CH340G</field>
         <field name="PARTREV">2G</field>
+        <field name="Price">0.47</field>
         <field name="STANDARD">IPC 7351B</field>
       </fields>
       <libsource lib="CH340G" part="CH340G" description=""/>
@@ -1517,9 +1566,10 @@
       <property name="STANDARD" value="IPC 7351B"/>
       <property name="PARTREV" value="2G"/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.8 mm"/>
-      <property name="Price" value=""/>
+      <property name="Price" value="0.47"/>
       <property name="Basic" value=""/>
-      <property name="Extended" value=""/>
+      <property name="Extended" value="0"/>
+      <property name="Manufacturer_Part_Number" value="CH340G"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller_kicad_sch.kicad_sch"/>
       <sheetpath names="/Microcontroller/" tstamps="/af4ae736-8069-4035-bb69-27168d826fe0/"/>
