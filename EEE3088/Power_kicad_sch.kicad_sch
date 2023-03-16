@@ -1372,6 +1372,9 @@
   (junction (at 205.74 104.775) (diameter 0) (color 0 0 0 0)
     (uuid 49979f40-2752-4220-b746-e89e817bc562)
   )
+  (junction (at 124.46 109.22) (diameter 0) (color 0 0 0 0)
+    (uuid 4cf488be-effe-4ded-92e5-21e8e376eae3)
+  )
   (junction (at 103.505 42.545) (diameter 0) (color 0 0 0 0)
     (uuid 5b69b6fe-6a37-4223-b705-09b1c0098acc)
   )
@@ -2429,6 +2432,31 @@
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
           (reference "#PWR06") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 124.46 109.22 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 84877f8c-97e0-4e8a-98b1-91aebcdfe73c)
+    (property "Reference" "TP22" (at 127 105.283 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TestPoint" (at 127 107.823 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 129.54 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 129.54 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b120fd7f-2f1b-4704-b06f-29dd73e9d477))
+    (instances
+      (project "EEE3088"
+        (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
+          (reference "TP22") (unit 1)
         )
       )
     )
