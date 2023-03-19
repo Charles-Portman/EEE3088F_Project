@@ -1,4 +1,25 @@
-21475014060752720
+21463267320998690
+0 Ohm Resistor
+RESC1005X40N
+0402-3
+Resistor
+0
+2
+2
+1.8k Ohm Resistor
+RESC2013X65N
+0805W_2021
+Resistor
+0
+2
+2
+AT24C256C-SSHL-T EEPROM Chip
+SOIC127P600X175-8N
+
+
+0
+8
+8
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,13 +34,6 @@ audio belton reverb
 0
 7
 7
-BH-18650-PC
-BAT_BH-18650-PC
-
-
-0
-2
-2
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -2400,8 +2414,22 @@ speaker CUI
 0
 2
 2
-CL10A106KP8NNNC
-CAPC1608X90N
+CC0603KRX7R9BB104 Cap
+CAPC1608X90
+<b>CAPACITOR</b>
+
+0
+2
+2
+CH340G Bridge
+SOIC127P600X180-16N
+
+
+0
+16
+16
+CL21B103KBANNNC
+CAPC2012X140N
 
 
 0
@@ -54319,13 +54347,6 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
-HT7533-1
-SOT89
-
-
-0
-4
-4
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -60402,6 +60423,20 @@ Yellow 5381 Series LED
 0
 2
 2
+MICROXNJ
+SHOUHAN_MICROXNJ
+<b>MICROXNJ-1</b><br>
+
+0
+11
+11
+MICROXNJ USB Interface
+SHOUHAN_MICROXNJ
+<b>MICROXNJ-1</b><br>
+
+0
+11
+11
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -62971,76 +63006,6 @@ Mounting 4.5mm 9774100982
 0
 8
 1
-My0R
-RESC1005X40N
-0402
-Resistor
-0
-2
-2
-My1.2k
-RESC1608X55N
-0603
-Resistor
-0
-2
-2
-My1M
-RESC2013X65N
-0805
-Resistor
-0
-2
-2
-My100k
-RESC3116X65N
-1206W4J0201T5E
-Resistor
-0
-2
-2
-MyGreenLED
-LEDC1608X50N
-19-217/GHC-YR1S2/3T
-LED
-0
-2
-2
-MyNmos
-SOT95P280X125-3N
-SOT-23-3L
-MOSFET (N-Channel)
-0
-3
-3
-MyPmos
-SOT95P280X125-3N
-SOT23
-MOSFET (P-Channel)
-0
-3
-3
-MyRedLED
-LEDC1608X70N
-0603
-LED
-0
-2
-2
-MyZener
-SODFL2513X100N
-SOD - 323F
-Zener Diode
-0
-2
-2
-Myopamp
-SOIC127P600X175-8N
-MCP6002T-I/SN-1
-Integrated Circuit
-0
-8
-8
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
@@ -82424,13 +82389,6 @@ Resistor Radial_Power series Radial pin pitch 7.37mm 10W length 16.1mm width 9mm
 0
 2
 2
-Resitor - unknown
-RESC2013X65N
-0805
-Resistor
-0
-2
-2
 Rotary_Encoder
 RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm
 Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
@@ -84083,13 +84041,6 @@ Logo WEEE
 0
 0
 0
-TP4056
-SOP127P600X175-9N
-
-
-0
-9
-9
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
