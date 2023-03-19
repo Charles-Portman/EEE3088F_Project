@@ -1023,10 +1023,10 @@
     (stroke (width 0.15) (type default)) (layer "F.SilkS") (tstamp b195f94c-082e-4009-bb71-9ef5aa731ac0))
   (gr_rect (start 40.64 43.18) (end 218.44 127)
     (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 1c8a9c02-fcd4-43fb-86a8-af53f35cad00))
-  (image (at 90.86 82.57) (layer "F.SilkS") (scale 0.1)
+  (image (at 90.86 85.11) (layer "F.SilkS") (scale 0.540415)
     (data
       iVBORw0KGgoAAAANSUhEUgAAA8AAAAK7CAIAAACyJnF6AAAAA3NCSVQICAjb4U/gAAAACXBIWXMA
-      AAsSAAALEgHS3X78AAAgAElEQVR4nOy9YXfrqNI0WtXIyZ553vv8//9471rvl3NmdmLRfT80ICSB
+      AArwAAAK8AFCrDSYAAAgAElEQVR4nOy9YXfrqNI0WtXIyZ553vv8//9471rvl3NmdmLRfT80ICSB
       LTl24mSrziyOtiIjhBAUTXXD4fSKAwduxWjKDgCYmZnVB4j6tQV+EgzDsDiT6gfhwq9KZZZURJpX
       nk4n5Go3M1U1Mz8BHK/gwA9BqNu/CQAjADAMpRdS0D8BVR2G6XpalQ9pZhbVv5T8MRqEx/dyR4h1
       znf6saPyL8Nb+xqq7Xoz9Or5wC1YjuIHDhz4UhjQ6RQBkmZWp91cqnlLPY05BqQDPwmzT8AbeXUM
