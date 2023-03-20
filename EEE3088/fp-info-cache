@@ -1,4 +1,4 @@
-21476693293785555
+21449839553114298
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,13 +13,6 @@ audio belton reverb
 0
 7
 7
-BH-18650-PC
-BAT_BH-18650-PC
-
-
-0
-2
-2
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -2397,13 +2390,6 @@ Buzzer_Beeper
 Speaker_CUI_CMR-1206S-67
 Speaker, 30mW, 300-7000Hz, IP67 face, 12x6x2,25mm, https://www.cuidevices.com/product/resource/cmr-12062s-67.pdf
 speaker CUI
-0
-2
-2
-CL10A106KP8NNNC
-CAPC1608X90N
-
-
 0
 2
 2
@@ -54319,13 +54305,6 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
-HT7533-1
-SOT89
-
-
-0
-4
-4
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -62971,76 +62950,6 @@ Mounting 4.5mm 9774100982
 0
 8
 1
-My0R
-RESC1005X40N
-0402
-Resistor
-0
-2
-2
-My1.2k
-RESC1608X55N
-0603
-Resistor
-0
-2
-2
-My1M
-RESC2013X65N
-0805
-Resistor
-0
-2
-2
-My100k
-RESC3116X65N
-1206W4J0201T5E
-Resistor
-0
-2
-2
-MyGreenLED
-LEDC1608X50N
-19-217/GHC-YR1S2/3T
-LED
-0
-2
-2
-MyNmos
-SOT95P280X125-3N
-SOT-23-3L
-MOSFET (N-Channel)
-0
-3
-3
-MyPmos
-SOT95P280X125-3N
-SOT23
-MOSFET (P-Channel)
-0
-3
-3
-MyRedLED
-LEDC1608X70N
-0603
-LED
-0
-2
-2
-MyZener
-SODFL2513X100N
-SOD - 323F
-Zener Diode
-0
-2
-2
-Myopamp
-SOIC127P600X175-8N
-MCP6002T-I/SN-1
-Integrated Circuit
-0
-8
-8
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
@@ -82424,13 +82333,6 @@ Resistor Radial_Power series Radial pin pitch 7.37mm 10W length 16.1mm width 9mm
 0
 2
 2
-Resitor - unknown
-RESC2013X65N
-0805
-Resistor
-0
-2
-2
 Rotary_Encoder
 RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm
 Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
@@ -84083,13 +83985,6 @@ Logo WEEE
 0
 0
 0
-TP4056
-SOP127P600X175-9N
-
-
-0
-9
-9
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -89680,13 +89575,6 @@ Varistor
 RV_Rect_V25S440P_L26.5mm_W8.2mm_P12.7mm
 Varistor, V25S440P, https://www.littelfuse.com/media?resourcetype=datasheets&itemid=b410c42c-51d1-460e-b1d9-d105d93c9679&filename=littelfuse-varistor-ultramov25s-datasheet
 varistor
-0
-2
-2
-my1k
-RESC1608X55N
-1.6mmx0.8mm
-Resistor
 0
 2
 2
