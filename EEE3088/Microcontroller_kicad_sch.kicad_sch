@@ -849,7 +849,6 @@
     )
   )
 
-
   (junction (at 229.87 45.72) (diameter 0) (color 0 0 0 0)
     (uuid 02071e53-95ec-4abf-bb83-508af9aab81f)
   )
@@ -2350,7 +2349,7 @@
     (property "Value" "Conn_01x24" (at 84.836 27.432 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 86.868 58.928 0)
+    (property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x24_P1.00mm_Vertical" (at 86.868 58.928 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "-" (at 86.868 58.928 0)
@@ -2624,7 +2623,7 @@
     (property "Value" "Conn_01x24" (at 116.586 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 112.268 59.182 0)
+    (property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x24_P1.00mm_Vertical" (at 112.268 59.182 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "-" (at 112.268 59.182 0)
