@@ -3198,7 +3198,7 @@
     (path "/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6/a994af23-6ae5-4bdb-9870-367c2ba1b0ca")
     (attr smd)
     (fp_text reference "C2" (at -0.24 -1.07 90) (layer "F.SilkS")
-        (effects (font (size 0.393701 0.393701) (thickness 0.15)))
+        (effects (font (size 0.393701 0.393701) (thickness 0.08) bold))
       (tstamp 0d1160a9-75e0-4086-b88b-f39088a31ad0)
     )
     (fp_text value "10uF" (at 1.51 1.07 90) (layer "F.Fab")
