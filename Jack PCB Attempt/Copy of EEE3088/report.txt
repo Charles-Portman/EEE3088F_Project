@@ -1,0 +1,6 @@
+Info: Updated footprint R14 (OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical): : (no changes)
+Info: Updated footprint R16 (OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical): : (no changes)
+Info: Updated footprint R15 (OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical): : (no changes)
+Info: Updated footprint U2 (OptoDevice:Lite-On_LTR-303ALS-01): : (no changes)
+Info: Updated footprint R17 (OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical): : (no changes)
+Info: Updated footprint U1 (OptoDevice:Lite-On_LTR-303ALS-01): : (no changes)

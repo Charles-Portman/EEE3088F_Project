@@ -1,0 +1,17 @@
+JLC Num;Part Num;Part Description;Package;Quantity ;Extended ;Price ;Cost 
+C19702;CL10A106KP8NNNC;Capacitor;;2;0;0,0066;0,0132
+C17168;0402WGF0000TCE;0 Resistor;;1;0;0,0005;0,0005
+C11702;0402WGF1001TCE;1k Resistor;;2;0;0,0005;0,001
+C22765;0603WAF1201T5E;1.2k Resistor;;1;0;0,001;0,001
+C17900;1206W4F1003T5E;100k Resistor;;1;0;0,0032;0,0032
+C2286;KT-0603R;Red LED;;2;0;0,0054;0,0108
+C16581;TP4056-42-ESOP8;Battery Charger;;1;0;0,2027;0,2027
+C8492;LBSS84LT1G;p Mosfet;;1;0;0,0242;0,0242
+C14289;HT7533-1;Voltage Regulator;;1;0;0,1315;0,1315
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;Total: ;0,3881
