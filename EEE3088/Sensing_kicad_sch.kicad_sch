@@ -668,7 +668,7 @@
     (uuid cd462166-acd7-4a1b-a914-16ad90c96c6c)
   )
 
-  (hierarchical_label "SDA_Sense" (shape input) (at 162.56 132.08 180) (fields_autoplaced)
+  (hierarchical_label "SDA_Sense_2" (shape input) (at 162.56 132.08 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 188a2d6b-00aa-4353-8d23-01707c544d0e)
   )
@@ -680,7 +680,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 4e95592c-e524-4058-885a-3b7993149dea)
   )
-  (hierarchical_label "SDA_Sense" (shape input) (at 160.02 53.34 180) (fields_autoplaced)
+  (hierarchical_label "SDA_Sense_1" (shape input) (at 160.02 53.34 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 606b3080-80af-49ea-8020-f3c69452b93b)
   )
