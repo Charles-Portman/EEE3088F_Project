@@ -213,6 +213,14 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 096c6469-af23-4343-855b-7854cebe403f)
     )
+    (pin "Analogue_Enable_1" input (at 200.66 96.52 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid cdfa5ced-9beb-465a-8983-6a39d513e562)
+    )
+    (pin "Analogue_Enable_2" input (at 200.66 99.06 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid e8465b8a-8741-41e9-8426-8dcc5330f3bf)
+    )
     (instances
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850" (page "3"))
