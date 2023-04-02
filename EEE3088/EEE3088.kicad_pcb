@@ -4950,6 +4950,9 @@
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp bd0c9b23-a697-47a0-8ee0-46f3a1fa4690))
   (gr_line (start 55 50) (end 145 50)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp cddc8ef4-fdcd-4518-9dbd-74fc32298634))
+  (gr_text "Charles Portman\nNB! NB! PLease add your names here" (at 89.281 140.208) (layer "F.SilkS") (tstamp 4d5064b0-0012-47da-90bd-4adb7b7b9268)
+    (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify left bottom))
+  )
 
   (segment (start -147.066 35.54) (end -147.066 25.160659) (width 0.5) (layer "F.Cu") (net 0) (tstamp 0488d718-437a-4642-a126-e6df2e2eefb9))
   (segment (start -150.464 38.938) (end -147.066 35.54) (width 0.5) (layer "F.Cu") (net 0) (tstamp 52f0ff8c-4fad-43e6-a035-caea61851f0b))
