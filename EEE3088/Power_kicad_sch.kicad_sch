@@ -1834,7 +1834,7 @@
   (symbol (lib_id "power:GND") (at 207.645 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 04ca3701-7b2d-4a4b-8202-4d93f717cc2c)
-    (property "Reference" "#PWR012" (at 207.645 124.46 0)
+    (property "Reference" "#PWR013" (at 207.645 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 207.645 123.19 0)
@@ -1850,7 +1850,7 @@
     (instances
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -1880,7 +1880,7 @@
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -1910,7 +1910,7 @@
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -1919,7 +1919,7 @@
   (symbol (lib_id "0805W8F1004T5E:0805W8F1004T5E") (at 147.32 144.145 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 132a9e10-8e3b-46fa-a7e8-8b6acf37938a)
-    (property "Reference" "R7" (at 150.495 152.4 90)
+    (property "Reference" "R8" (at 150.495 152.4 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1M" (at 150.495 154.94 90)
@@ -1972,7 +1972,7 @@
     (instances
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
-          (reference "R7") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -1981,7 +1981,7 @@
   (symbol (lib_id "HT7533-1:HT7533-1") (at 207.645 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1987ef62-53c6-4b3e-b91c-3f5ffbab8eec)
-    (property "Reference" "Voltage-Regulator-1" (at 207.645 104.14 0)
+    (property "Reference" "U1" (at 207.645 104.14 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "HT7533-1" (at 207.645 106.68 0)
@@ -2018,7 +2018,7 @@
     (instances
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
-          (reference "Voltage-Regulator-1") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -2069,7 +2069,7 @@
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
-          (reference "Voltage-Regulator-2") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -2099,7 +2099,7 @@
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -2166,7 +2166,7 @@
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
-          (reference "R3") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -2335,7 +2335,7 @@
   (symbol (lib_id "power:GND") (at 147.32 161.925 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4a00eb02-c97f-4350-b3b1-10397d93eff5)
-    (property "Reference" "#PWR011" (at 147.32 168.275 0)
+    (property "Reference" "#PWR012" (at 147.32 168.275 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 147.32 166.37 0)
@@ -2351,7 +2351,7 @@
     (instances
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -2360,7 +2360,7 @@
   (symbol (lib_id "power:GND") (at 113.03 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4e2cb5ac-975e-498d-9b32-45164e6b9980)
-    (property "Reference" "#PWR010" (at 113.03 161.29 0)
+    (property "Reference" "#PWR011" (at 113.03 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 113.03 159.385 0)
@@ -2376,7 +2376,7 @@
     (instances
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -2444,7 +2444,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 45.72 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6099c674-96a6-4c5c-a6fa-b8603234b921)
-    (property "Reference" "TP12" (at 48.26 163.703 0)
+    (property "Reference" "TP2" (at 48.26 163.703 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 48.26 166.243 0)
@@ -2478,7 +2478,7 @@
     (instances
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
-          (reference "TP12") (unit 1)
+          (reference "TP2") (unit 1)
         )
       )
     )
@@ -2536,7 +2536,7 @@
   (symbol (lib_id "power:+5V") (at 66.675 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 722f7140-e5d1-49d3-b855-266461045215)
-    (property "Reference" "#PWR045" (at 66.675 34.29 0)
+    (property "Reference" "#PWR06" (at 66.675 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 66.675 27.305 0)
@@ -2552,7 +2552,7 @@
     (instances
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -2620,7 +2620,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 114.935 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 74fe59d0-12d5-41e7-b4b3-126523afed69)
-    (property "Reference" "TP2" (at 116.84 48.133 0)
+    (property "Reference" "TP4" (at 116.84 48.133 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 116.84 50.673 0)
@@ -2654,7 +2654,7 @@
     (instances
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
-          (reference "TP2") (unit 1)
+          (reference "TP4") (unit 1)
         )
       )
     )
@@ -2684,7 +2684,7 @@
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -2693,7 +2693,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 128.27 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 84877f8c-97e0-4e8a-98b1-91aebcdfe73c)
-    (property "Reference" "TP22" (at 130.81 128.143 0)
+    (property "Reference" "TP5" (at 130.81 128.143 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 130.81 130.683 0)
@@ -2724,7 +2724,7 @@
     (instances
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
-          (reference "TP22") (unit 1)
+          (reference "TP5") (unit 1)
         )
       )
     )
@@ -2891,7 +2891,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 145.415 141.605 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a2f84ea0-4823-4de8-8d0a-a92799159b59)
-    (property "Reference" "TP3" (at 142.113 137.16 90)
+    (property "Reference" "TP6" (at 142.113 137.16 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 142.113 139.7 90)
@@ -2925,7 +2925,7 @@
     (instances
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
-          (reference "TP3") (unit 1)
+          (reference "TP6") (unit 1)
         )
       )
     )
@@ -2993,7 +2993,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 74.295 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a5f7f5ca-9475-4feb-bde9-cc3490e09fd9)
-    (property "Reference" "TP14" (at 76.835 26.543 0)
+    (property "Reference" "TP3" (at 76.835 26.543 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 76.835 29.083 0)
@@ -3027,7 +3027,7 @@
     (instances
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
-          (reference "TP14") (unit 1)
+          (reference "TP3") (unit 1)
         )
       )
     )
@@ -3036,7 +3036,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 259.08 137.795 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a7cb2dff-dc4f-44b6-9b93-950b69f8c338)
-    (property "Reference" "TP5" (at 260.985 133.858 0)
+    (property "Reference" "TP8" (at 260.985 133.858 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 260.985 136.398 0)
@@ -3070,7 +3070,7 @@
     (instances
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
-          (reference "TP5") (unit 1)
+          (reference "TP8") (unit 1)
         )
       )
     )
@@ -3079,7 +3079,7 @@
   (symbol (lib_id "0402WGF0000TCE:0402WGF0000TCE") (at 147.32 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a8114bc9-f9a3-4016-a22d-7b77f2dd8856)
-    (property "Reference" "R8" (at 156.21 133.985 0)
+    (property "Reference" "R7" (at 156.21 133.985 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 156.21 136.525 0)
@@ -3129,7 +3129,7 @@
     (instances
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
-          (reference "R8") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -3246,7 +3246,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 227.33 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b6e89fb2-219a-4619-b6d3-b73b9b6f37f5)
-    (property "Reference" "TP4" (at 229.87 106.553 0)
+    (property "Reference" "TP7" (at 229.87 106.553 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 229.87 109.093 0)
@@ -3280,7 +3280,7 @@
     (instances
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
-          (reference "TP4") (unit 1)
+          (reference "TP7") (unit 1)
         )
       )
     )
@@ -3369,7 +3369,7 @@
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -3434,7 +3434,7 @@
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
-          (reference "Battery-Charger1") (unit 1)
+          (reference "U8") (unit 1)
         )
       )
     )
@@ -3571,12 +3571,12 @@
   )
 
   (symbol (lib_id "power:GND") (at 41.275 59.69 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid e7556f6b-63f2-4a8d-a2f1-7bcfdb1f27f1)
     (property "Reference" "#PWR02" (at 41.275 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 41.275 64.77 0)
+    (property "Value" "GND" (at 43.815 62.865 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 41.275 59.69 0)
@@ -3594,7 +3594,7 @@
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -3603,7 +3603,7 @@
   (symbol (lib_id "my 1k:0603WAF1001T5E") (at 34.29 74.295 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f0b5a312-6aad-4219-b866-4f30962a7045)
-    (property "Reference" "R32" (at 36.83 64.77 90)
+    (property "Reference" "R1" (at 36.83 64.77 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1k" (at 36.83 67.31 90)
@@ -3653,7 +3653,7 @@
     (instances
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
-          (reference "R32") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -3722,10 +3722,10 @@
   (symbol (lib_id "MCP6002T-I_SN:MCP6002T-I_SN") (at 97.79 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fa6c2ef6-cf06-401f-9e38-1da92d38ad98)
-    (property "Reference" "Op-Amp1" (at 114.9859 117.475 0)
+    (property "Reference" "U9" (at 114.9859 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "MCP6002T-I_SN" (at 114.9859 120.015 0)
+    (property "Value" "MCP6002T-I_SN" (at 114.9859 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Myopamp:SOIC127P600X175-8N" (at 124.46 121.92 0)
@@ -3781,7 +3781,7 @@
     (instances
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
-          (reference "Op-Amp1") (unit 1)
+          (reference "U9") (unit 1)
         )
       )
     )
@@ -3848,7 +3848,7 @@
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
-          (reference "R2") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )

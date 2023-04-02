@@ -1479,7 +1479,7 @@
   (symbol (lib_id "power:+3.3V") (at 78.105 38.735 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0d5967c9-c0bd-424d-9362-1f5b358ce30f)
-    (property "Reference" "#PWR049" (at 78.105 42.545 0)
+    (property "Reference" "#PWR035" (at 78.105 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 78.105 34.925 0)
@@ -1495,7 +1495,7 @@
     (instances
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -1504,7 +1504,7 @@
   (symbol (lib_id "power:+3.3V") (at 98.425 28.575 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 181bb7cf-42c3-4986-97a0-48aa90db6aeb)
-    (property "Reference" "#PWR047" (at 98.425 32.385 0)
+    (property "Reference" "#PWR037" (at 98.425 32.385 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 98.425 24.765 0)
@@ -1520,7 +1520,7 @@
     (instances
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -1529,7 +1529,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 198.12 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1ca396bf-fe1d-40bb-a359-cbff3a5230ef)
-    (property "Reference" "TP13" (at 196.85 49.53 0)
+    (property "Reference" "TP15" (at 196.85 49.53 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 196.85 50.8 0)
@@ -1560,7 +1560,7 @@
     (instances
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "TP13") (unit 1)
+          (reference "TP15") (unit 1)
         )
       )
     )
@@ -1590,7 +1590,7 @@
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -1599,7 +1599,7 @@
   (symbol (lib_id "Device:R") (at 24.13 33.02 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3dca0097-f1f9-4a5b-b783-46676c6af83b)
-    (property "Reference" "R30" (at 24.13 27.94 90)
+    (property "Reference" "R28" (at 24.13 27.94 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 24.13 30.48 90)
@@ -1637,7 +1637,7 @@
     (instances
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "R30") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
     )
@@ -1695,7 +1695,7 @@
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "U3") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
     )
@@ -1704,7 +1704,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 229.87 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4c25a894-b89b-417e-af2a-b67f8fef6116)
-    (property "Reference" "TP19" (at 232.41 41.783 0)
+    (property "Reference" "TP17" (at 232.41 41.783 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 231.14 43.18 0)
@@ -1735,7 +1735,7 @@
     (instances
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "TP19") (unit 1)
+          (reference "TP17") (unit 1)
         )
       )
     )
@@ -1744,7 +1744,7 @@
   (symbol (lib_id "power:GND") (at 97.155 104.775 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5629ef30-cf00-42d8-8532-4b1a0f4d6e03)
-    (property "Reference" "#PWR048" (at 97.155 111.125 0)
+    (property "Reference" "#PWR036" (at 97.155 111.125 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 97.155 109.855 0)
@@ -1760,7 +1760,7 @@
     (instances
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -1835,7 +1835,7 @@
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "U4") (unit 1)
+          (reference "U7") (unit 1)
         )
       )
     )
@@ -1865,7 +1865,7 @@
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -1895,7 +1895,7 @@
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -2023,7 +2023,7 @@
   (symbol (lib_id "power:+5V") (at 15.24 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7ae16986-75d4-484f-b620-0f0bc48bee66)
-    (property "Reference" "#PWR046" (at 15.24 36.83 0)
+    (property "Reference" "#PWR033" (at 15.24 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 15.24 29.21 0)
@@ -2039,7 +2039,7 @@
     (instances
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -2069,7 +2069,7 @@
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -2139,7 +2139,7 @@
           (reference "R4") (unit 1)
         )
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "R29") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
     )
@@ -2197,7 +2197,7 @@
   (symbol (lib_id "PCM_UCT:STM32F051C6TG6_Target") (at 97.155 65.405 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9c52780c-1d87-4afc-a33a-a6c61a69a7d9)
-    (property "Reference" "U6" (at 102.2859 100.965 0)
+    (property "Reference" "U5" (at 102.2859 100.965 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Header" (at 97.155 63.5 0)
@@ -2275,7 +2275,7 @@
     (instances
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "U6") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -2305,7 +2305,7 @@
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -2431,7 +2431,7 @@
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -2461,7 +2461,7 @@
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
       )
     )
@@ -2491,7 +2491,7 @@
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -2521,7 +2521,7 @@
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -2530,7 +2530,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 198.12 59.69 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cf772be8-7a42-4d63-8bcf-15393a0e3cd3)
-    (property "Reference" "TP21" (at 200.66 62.357 0)
+    (property "Reference" "TP16" (at 200.66 62.357 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "TestPoint" (at 200.66 64.897 0)
@@ -2561,7 +2561,7 @@
     (instances
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "TP21") (unit 1)
+          (reference "TP16") (unit 1)
         )
       )
     )
@@ -2680,7 +2680,7 @@
           (reference "R4") (unit 1)
         )
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "R28") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )
@@ -2710,7 +2710,7 @@
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -2740,7 +2740,7 @@
       )
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/af4ae736-8069-4035-bb69-27168d826fe0"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
     )
