@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.75
         }
       },
       "diff_pair_dimensions": [
@@ -55,7 +55,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "via_dangling|125000000|145000000|deac5969-1730-4fa0-8a73-d249b072d2f9|00000000-0000-0000-0000-000000000000",
+        "via_dangling|125000000|55000000|9b23cc5a-1c90-4c04-919b-2a0e8395e629|00000000-0000-0000-0000-000000000000",
+        "via_dangling|75000000|145000000|8eaafaaa-bc83-4650-a39d-70ff92a41063|00000000-0000-0000-0000-000000000000",
+        "via_dangling|75000000|55000000|3fe3cc8a-0707-4c32-a942-8573146a322f|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -179,11 +184,68 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.5
         }
       ],
       "zones_allow_external_fillets": false
     },
-    "layer_presets": [],
+    "layer_presets": [
+      {
+        "activeLayer": -2,
+        "layers": [
+          0,
+          31,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          44
+        ],
+        "name": "Gerbs",
+        "renderLayers": [
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153,
+          154,
+          155,
+          157,
+          158,
+          159,
+          160,
+          161,
+          164,
+          165
+        ]
+      }
+    ],
     "viewports": []
   },
   "boards": [],

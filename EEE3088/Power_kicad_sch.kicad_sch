@@ -1364,6 +1364,58 @@
         )
       )
     )
+    (symbol "power:+3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+3.3V" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+3.3V\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+3.3V_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+3.3V_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+3.3V" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "power:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -1556,7 +1608,7 @@
     (stroke (width 0) (type default))
     (uuid 233ed72d-19f3-47e6-bb74-85aba6a7a397)
   )
-  (wire (pts (xy 259.08 137.795) (xy 260.985 137.795))
+  (wire (pts (xy 259.08 137.795) (xy 273.05 137.795))
     (stroke (width 0) (type default))
     (uuid 23653c1f-d607-407e-9331-0e2192b2d39d)
   )
@@ -1828,14 +1880,6 @@
   (label "3.3-back" (at 260.985 110.49 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ff243664-b078-486f-94e7-2d45b4b0be34)
-  )
-
-  (global_label "+3.3V" (shape output) (at 260.985 137.795 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 4cb44199-083d-4f96-9b0d-0cf47bbb551b)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 269.5756 137.795 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
   )
 
   (symbol (lib_id "power:GND") (at 207.645 118.11 0) (unit 1)
@@ -2279,7 +2323,7 @@
   (symbol (lib_id "AO3400A:AO3400A") (at 139.7 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 39c00dce-9864-4a2c-b53d-fda7029d24d3)
-    (property "Reference" "N-Mos1" (at 151.13 128.905 0)
+    (property "Reference" "N1" (at 151.13 128.905 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "AO3400A" (at 151.13 131.445 0)
@@ -2333,7 +2377,7 @@
     (instances
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
-          (reference "N-Mos1") (unit 1)
+          (reference "N1") (unit 1)
         )
       )
     )
@@ -2443,6 +2487,37 @@
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
           (reference "R9") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 273.05 137.795 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 53cc3e1b-13c9-4363-815f-d9bb51d22c8b)
+    (property "Reference" "#PWR044" (at 273.05 141.605 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 273.05 133.985 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 273.05 137.795 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 273.05 137.795 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 24fde022-e53a-4c12-ae4a-26c2cc460224))
+    (instances
+      (project "EEE3088"
+        (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/d16a673b-d677-4a4a-a11c-ee22bd422692"
+          (reference "#PWR044") (unit 1)
+        )
+        (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850"
+          (reference "#PWR01") (unit 1)
+        )
+        (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -3669,7 +3744,7 @@
   (symbol (lib_id "AO3401A:AO3401A") (at 39.37 139.7 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f82e9383-7710-4b50-8ba2-e09a8b4c69c7)
-    (property "Reference" "P-Mos1" (at 36.83 125.73 90)
+    (property "Reference" "P1" (at 36.83 125.73 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AO3401A" (at 36.83 128.27 90)
@@ -3720,7 +3795,7 @@
     (instances
       (project "EEE3088"
         (path "/83bdd5e1-981a-4ca1-9a2f-70dea9f00850/1213f935-6f8d-4a20-9c2e-6b5e9a834fe6"
-          (reference "P-Mos1") (unit 1)
+          (reference "P1") (unit 1)
         )
       )
     )
