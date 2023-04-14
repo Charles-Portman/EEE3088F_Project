@@ -1,4 +1,4 @@
-21453200261188344
+21454881717863425
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -89584,6 +89584,13 @@ Varistor, V25S440P, https://www.littelfuse.com/media?resourcetype=datasheets&ite
 varistor
 0
 2
+2
+uct_kicad_library
+18650_Holder_SMD
+
+
+0
+5
 2
 uct_kicad_library
 STM32F051C6T6
